@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dc2aa3f84b13f3c7",
+        "id": "2801e16383729473",
         "type": "tabs",
         "children": [
           {
-            "id": "930bcb1a2d5cc310",
+            "id": "3ca63fdbed79c8d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Preps/BNP Paribas/Q&A Specific to this position.md",
+                "file": "Interview Preps/BNP Paribas/Q&A - Behavourial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Q&A Specific to this position"
+              "title": "Q&A - Behavourial"
             }
           }
         ]
@@ -88,20 +88,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Preps/BNP Paribas/Q&A Specific to this position.md",
+                "file": "Interview Preps/BNP Paribas/Q&A - Behavourial.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Q&A Specific to this position"
+              "title": "Outline of Q&A - Behavourial"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 445
+    "width": 362
   },
   "right": {
     "id": "e603ce187a513e87",
@@ -205,7 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389
+    "width": 364
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,15 +221,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "930bcb1a2d5cc310",
+  "active": "3ca63fdbed79c8d2",
   "lastOpenFiles": [
-    "Interview Preps/BNP Paribas/Vikramaditya Tatke CV.md",
-    "Interview Preps/BNP Paribas/Q&A Specific to this position.md",
+    "Interview Preps/BNP Paribas/Q&A - Behavourial - New.md",
+    "Interview Preps/BNP Paribas/Q&A - Behavourial.md",
+    "Interview Preps/BNP Paribas/Q&A - Technical - New.md",
+    "Interview Preps/BNP Paribas/Q&A - Technical.md",
+    "Interview Preps/BNP Paribas/Vision and Mission.md",
+    "Interview Preps/BNP Paribas/Vikramaditya Tatke Cover Letter.md",
+    "Interview Preps/BNP Paribas/Q&A - Technicalmd",
+    "Interview Preps/BNP Paribas/Vikramaditya Tatke Skillset Elaboration.md",
     "Interview Preps/BNP Paribas/Data Platform Engineer - Assistant Vice President.md",
+    "Interview Preps/BNP Paribas/Behavioral - Specific Q&A for this position.md",
+    "Interview Preps/BNP Paribas/Technical - Specific Q&A for this position.md",
+    "README.md",
+    "ClickHouse/Self-managed ClickHouse References.md",
+    "ClickHouse/Self-managed ClickHouse References",
+    "Interview Preps/BNP Paribas/Vikramaditya Tatke CV.md",
     "ClickHouse/Self-managed ClickHouse.md",
     "Interview Preps/BNP Paribas",
     "Interview Preps",
-    "README.md",
     "ClickHouse",
     "Daily Notes/2025-04-25.md",
     "Daily Notes",

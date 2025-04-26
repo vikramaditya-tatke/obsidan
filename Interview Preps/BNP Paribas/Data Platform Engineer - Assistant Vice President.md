@@ -93,3 +93,64 @@
 ## Growth Potential
 * Opportunity to shape ClickHouse implementation across multiple teams.
 * Potential to build and lead their own team in the future.
+
+## Hiring Manager Notes
+## Role Information
+* **Title:** Data Platform Engineer
+* **Level:** Assistant Vice President (AVP)
+* **Specialization:** ClickHouse Database Platform
+
+## Core Mandate
+* Lead the design, implementation, and management of ClickHouse database solutions.
+* Ensure high availability, fault tolerance, and performance of ClickHouse clusters.
+* Act as a hybrid between a Database Administrator (DBA) and a Developer, contributing to both operational and development aspects of the platform.
+* Drive the adoption and best practices of ClickHouse across multiple teams.
+
+## Required Skills & Expertise
+
+### ClickHouse Specific
+* **Deep Expertise:** Broad and deep understanding of ClickHouse architecture, principles, and best practices.
+* **Design:** Capable of designing systems for full fault tolerance in a clustered ClickHouse environment.
+* **Performance Tuning:** Proven ability to tune ClickHouse for optimal performance.
+* **Clustering:** Practical experience in managing clustered ClickHouse environments.
+* **Cluster Management:** Experience includes cluster setup and fault recovery procedures.
+* **High Availability:** Knowledge of processes for ensuring high uptime.
+* **Coordination Service:** Knowledge of ClickHouse Keeper (or Zookeeper) for coordination and state management.
+* **Backup & Recovery:** Experience designing and implementing robust backup strategies.
+* **Production Operations:** Effective handling of production faults and incidents.
+
+### Technical Skills
+* **Operating System:** Highly proficient in Unix/Linux environments.
+* **System Monitoring:** Ability to monitor system resources (CPU, memory, disk I/O) on Unix.
+* **DevOps Tools:** Proficiency in leveraging DevOps tools such as Jenkins and Ansible.
+
+### Hybrid DBA/Developer Capabilities
+* Ability to bridge the gap between database administration (operations, tuning, scaling) and development (automation, potential code contributions).
+
+### Soft Skills
+* **Communication:** Strong communication skills (written and verbal).
+* **Teamwork:** Excellent collaboration and teamwork abilities.
+* **Knowledge Sharing:** Ability to share knowledge effectively with team members and other teams.
+
+## Desired Skills (Nice-to-Haves)
+* **Monitoring & Alerting:** Experience with Grafana and Prometheus for monitoring ClickHouse.
+* **Alerting Setup:** Experience setting up alerts based on monitoring metrics.
+* **C++ Contribution:** Ability to contribute to ClickHouse functionality or related tooling in C++ (Significant Bonus).
+
+## Experience Required
+* Practical experience managing ClickHouse in production environments.
+* Experience with clustered database environments.
+* Experience with Unix/Linux system administration related to database hosting.
+
+## Team Context & Challenge
+* Initial focus on a core production system and several development systems.
+* Opportunity to shape the ClickHouse implementation across multiple teams.
+* Potential to build and lead a team in the future.
+* Joining a core client team currently focused on Windows/SQL Server, requiring this role to bring crucial Unix and distributed database expertise.
+
+## Interview Process
+1.  Initial Team Fit Chat.
+2.  Technical Deep-Dive (In-Office).
+3.  Live Coding Session (In-Office) covering:
+    * ClickHouse (queries, operations)
+    * Unix (scripting, command-line tasks, monitoring)
