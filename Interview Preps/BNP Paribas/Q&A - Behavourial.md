@@ -1,242 +1,72 @@
-### Handling critical production database issues
+# Behavioral Interview Questions for BNP Paribas Data Platform Engineer (AVP)
 
-* **Situation:**
-  - Managing MongoDB clusters in production environment
-  - Disk usage alerts triggered (>80% threshold) on one of MongoDB shards
-  - Critical system requiring immediate attention
+### 1. Why are you interested in BNP Paribas and this specific role?
+**Situation:** As I considered my next career step, I sought an organization whose mission and values aligned with my own commitment to responsible innovation and ethical impact.
+**Task:** I wanted to join a team where I could drive technical excellence while contributing to a broader purpose, especially in a role that leverages my expertise in data platforms and distributed systems.
+**Action:** BNP Paribas’s focus on sustainability, employee development, and technological advancement resonated with me. The opportunity to shape ClickHouse adoption at scale and work in a collaborative, diverse environment is exactly the challenge I am seeking. I have also followed BNP Paribas’s public initiatives and see a strong alignment with my own vision for technology as a force for good.
+**Result:** I am highly motivated to bring my experience and passion to BNP Paribas, confident that I can make a meaningful impact both technically and culturally.
+**Learning:** This process reinforced the importance of aligning personal and organizational values for long-term fulfillment and success.
 
-* **Action:**
-  - Implemented systematic troubleshooting approach:
-    - Immediately reviewed Ops Manager metrics and logs
-    - Analyzed system and MongoDB logs for potential causes
-    - Engaged with MongoDB professional services for consultation
-    - Maintained detailed documentation of the issue investigation
-  - Executed resolution steps:
-    - Evaluated disk usage patterns
-    - Planned disk expansion strategy
-    - Implemented solution with minimal disruption
+### 2. How do you stay up-to-date with new technologies in the data engineering space?
+**Situation:** The data engineering landscape evolves rapidly, making continuous learning essential.
+**Task:** My goal is to remain at the forefront of industry trends and best practices.
+**Action:** I regularly attend webinars (e.g., ClickHouse, Airflow, AWS Summit), follow open-source communities, and contribute to side projects on GitHub such as my Streamlit Admin Panel and Polars GPU Benchmark. I also experiment with new tools like Evidence.dev and Rill Data, and read technical blogs to deepen my understanding.
+**Result:** This approach has enabled me to quickly adopt and implement new technologies in my professional and personal projects, keeping my skills sharp and relevant.
+**Learning:** Active engagement with the community and hands-on experimentation are the best ways to stay current and innovative.
 
-* **Result:**
-  - Successfully resolved the disk space issue
-  - Maintained system stability throughout resolution
-  - Prevented potential data loss or service disruption
+### 3. Describe a situation where you had to bridge the gap between database administration and development.
+**Situation:** At SecurityHQ, we faced a major migration from MongoDB to ClickHouse, requiring both operational and development expertise.
+**Task:** I was responsible for ensuring the new platform was robust, performant, and easy for developers to use.
+**Action:** I managed cluster setup, monitoring, and backup strategies while also redesigning schemas and optimizing ETL pipelines. I worked closely with developers to automate deployments and provided documentation and training.
+**Result:** The migration was successful, with improved performance and developer productivity. The team became more self-sufficient in managing and extending the platform.
+**Learning:** Bridging DBA and development roles requires empathy, clear communication, and a willingness to learn from both perspectives.
 
-* **Learning:**
-  - Implemented more granular monitoring
-  - Established proactive capacity planning
-  - Created standardized troubleshooting procedures
+### 4. Tell us about a time you had to mentor or train a team member or stakeholder in a new technology or process. How did you approach it?
+**Situation:** As Lead Data Engineer, I was tasked with upskilling a team of five engineers in new data technologies.
+**Task:** My objective was to ensure the team could confidently adopt tools like Airflow and ClickHouse.
+**Action:** I led hands-on workshops, created onboarding materials, and encouraged peer code reviews. I also shared my own learning journey, including open-source contributions and side projects, to inspire curiosity and growth.
+**Result:** The team quickly adapted to the new stack, and several members began contributing their own improvements and ideas.
+**Learning:** Effective mentorship is about empowering others to explore, experiment, and take ownership of their learning.
 
-### Managing complex technical projects and stakeholder alignment
+### 5. Can you share an example of how you handled a challenging collaboration with a cross-functional team?
+**Situation:** During the analytics platform migration, I worked with infrastructure, development, and management teams with differing priorities.
+**Task:** My role was to align everyone on the migration goals and ensure smooth execution.
+**Action:** I facilitated regular meetings, translated technical details for non-technical stakeholders, and maintained transparent progress tracking. I also encouraged open feedback and addressed concerns proactively.
+**Result:** The project stayed on track, and the collaborative approach led to a more robust and scalable solution.
+**Learning:** Open communication and empathy are key to successful cross-functional collaboration.
 
-* **Situation:**
-  - Led MongoDB to ClickHouse Cloud migration project
-  - Complex project affecting multiple stakeholders
-  - High visibility initiative with significant business impact
+### 6. How do you prioritize and manage multiple tasks or projects under tight deadlines?
+**Situation:** In fast-paced environments, I often juggle several high-priority projects.
+**Task:** My responsibility is to deliver quality results without burnout or missed deadlines.
+**Action:** I use Agile methodologies and tools like Jira to break down work into manageable tasks, set clear milestones, and delegate when appropriate. I communicate progress and risks early to stakeholders.
+**Result:** Projects are delivered on time, and the team remains focused and motivated.
+**Learning:** Structure, transparency, and adaptability are essential for effective multitasking.
 
-* **Action:**
-  - Implemented comprehensive stakeholder management:
-    - Engaged with SMEs and developers for technical requirements
-    - Coordinated with infrastructure teams for resource allocation
-    - Aligned with management on budget and growth forecasts
-  - Maintained clear communication channels
-  - Established regular progress updates
-  - Created detailed project documentation
+### 7. Describe a time when you identified and implemented an internal improvement initiative. What was the impact?
+**Situation:** I noticed that our Airflow DAG deployment process was manual and error-prone.
+**Task:** I aimed to automate and streamline this workflow.
+**Action:** I designed and implemented CI/CD pipelines using GitHub Actions, reducing manual steps and increasing reliability. I also documented the process and trained the team.
+**Result:** Deployment times dropped significantly, and the team could focus more on development and less on operations.
+**Learning:** Small process improvements can have out-sized impacts on productivity and morale.
 
-* **Result:**
-  - Achieved significant business outcomes:
-    - 80% reduction in infrastructure costs
-    - 65% improvement in data readiness time
-    - Successful transition to managed ClickHouse Cloud service
-  - Strong stakeholder satisfaction
-  - Smooth transition with minimal disruption
+### 8. How do you ensure clear communication when working with both technical and non-technical stakeholders?
+**Situation:** My work often involves translating complex technical concepts for diverse audiences.
+**Task:** I need to ensure everyone understands project goals, risks, and progress.
+**Action:** I use visualizations, concise documentation, and regular check-ins to bridge knowledge gaps. I also encourage questions and feedback to ensure clarity.
+**Result:** Stakeholders feel informed and engaged, leading to smoother project execution.
+**Learning:** Communication is most effective when it is tailored to the audience and encourages two-way dialogue.
 
-### Mentoring and developing junior engineers
+### 9. Give an example of how you handled a high-pressure situation or production incident.
+**Situation:** A critical production incident threatened data availability for a key client.
+**Task:** I was responsible for diagnosing and resolving the issue quickly.
+**Action:** I analyzed logs, coordinated with the team, and implemented a fix while keeping stakeholders updated. After resolution, I documented the incident and led a post-mortem to prevent recurrence.
+**Result:** The issue was resolved with minimal downtime, and the team learned valuable lessons for future incidents.
+**Learning:** Staying calm, methodical, and communicative is vital in high-pressure situations.
 
-* **Situation:**
-  - Lead Data Engineer role
-  - Responsible for team of 5 platform engineers
-  - Need to elevate team's technical capabilities
+### 10. What motivates you to work in a team environment, and how do you contribute to a positive team culture?
+**Situation:** I have always thrived in collaborative, high-performing teams.
+**Task:** My aim is to foster a culture of support, innovation, and continuous improvement.
+**Action:** I mentor peers, celebrate team successes, and encourage open sharing of ideas and feedback. I also lead by example, demonstrating a growth mindset and willingness to learn from others.
+**Result:** Teams I work with are more engaged, innovative, and resilient.
+**Learning:** A positive team culture is built on trust, respect, and shared purpose.
 
-* **Action:**
-  - Implemented comprehensive development program:
-    - Provided regular technical guidance and mentorship
-    - Conducted thorough code reviews with educational focus
-    - Shared knowledge about database optimization and query performance
-    - Involved junior team members in POCs for new technologies
-  - Created learning opportunities:
-    - Paired junior engineers with senior team members
-    - Assigned challenging but achievable tasks
-    - Provided regular feedback and support
-
-* **Result:**
-  - Enhanced team capabilities:
-    - Improved confidence in handling complex database operations
-    - Better understanding of pipeline development
-    - Increased independence in problem-solving
-  - Stronger team collaboration
-  - Higher quality deliverables
-
-### Explaining complex technical concepts to non-technical audience
-
-* **Situation:**
-  - Need to justify MongoDB to ClickHouse Cloud migration
-  - Complex technical benefits requiring translation for management
-  - High-stakes decision requiring clear communication
-
-* **Action:**
-  - Developed comprehensive communication strategy:
-    - Translated technical benefits into business metrics
-    - Presented clear cost reduction figures (80%)
-    - Demonstrated performance improvements with concrete examples
-    - Created clear, actionable summaries for management
-  - Used visual aids and demonstrations
-  - Provided regular updates and clarifications
-
-* **Result:**
-  - Successfully gained approval for migration project
-  - Clear understanding among stakeholders
-  - Strong buy-in from management team
-
-### Building effective relationships and resolving technical disagreements
-
-* **Situation:**
-  - Working across multiple teams and departments
-  - Need to coordinate complex technical initiatives
-  - Diverse perspectives and priorities to manage
-
-* **Action:**
-  - Implemented relationship-building strategy:
-    - Early engagement with stakeholders
-    - Focus on data-driven decisions
-    - Regular documentation and knowledge sharing
-    - Clear communication channels (Teams, email)
-  - Developed conflict resolution approach:
-    - Active listening to understand concerns
-    - Objective evaluation of options
-    - Collaborative solution development
-
-* **Result:**
-  - Successfully coordinated between teams during MongoDB cluster setup
-  - Improved cross-team collaboration
-  - Better alignment on technical decisions
-
-### Identifying and implementing process improvements
-
-* **Situation:**
-  - Identified limitations in pure Python ETL scripts
-  - Need for better maintainability and scheduling
-  - Opportunity for significant workflow improvement
-
-* **Action:**
-  - Initiated transition to Apache Airflow:
-    - Proposed transition with clear benefits
-    - Implemented CI/CD workflows using GitHub Actions
-    - Created comprehensive documentation
-  - Managed change process:
-    - Trained team on new tools
-    - Established best practices
-    - Created migration timeline
-
-* **Result:**
-  - Achieved significant improvements:
-    - Enhanced maintainability of workflows
-    - Improved observability of processes
-    - Better scheduling capabilities
-  - Successful adoption across teams
-
-### Staying current with database technologies
-
-* **Situation:**
-  - Need to maintain expertise in rapidly evolving field
-  - Responsibility for technical leadership
-  - Focus on practical application of new knowledge
-
-* **Action:**
-  - Engaged in continuous learning:
-    - Attended ClickHouse webinars with CTO Alexey Milovidov
-    - Participated in industry events:
-      - AWS Summit
-      - MongoDB .local
-      - Airflow Roadshow
-    - Explored emerging technologies:
-      - Business Intelligence as Code platforms
-      - Rill Data
-      - Evidence.dev
-  - Maintained professional certifications:
-    - ClickHouse Certified Developer
-    - MongoDB Associate Developer
-
-* **Result:**
-  - Applied current best practices to projects
-  - Introduced innovative solutions
-  - Enhanced team's technical capabilities
-
-### Balancing competing priorities
-
-* **Situation:**
-  - Lead Data Engineer role with multiple responsibilities:
-    - Team leadership of 5 engineers
-    - Technical oversight of ETL and database development
-    - Migration project management
-    - Monitoring solution implementation
-
-* **Action:**
-  - Implemented priority management system:
-    - Clear prioritization based on business impact
-    - Effective delegation within the team
-    - Regular stakeholder communication
-  - Created structured approach:
-    - Daily team stand-ups
-    - Weekly priority reviews
-    - Regular progress updates
-
-* **Result:**
-  - Successfully delivered all key initiatives
-  - Maintained team productivity
-  - Met project deadlines and objectives
-
-### Making technical decisions with incomplete information
-
-* **Situation:**
-  - Initial capacity planning for MongoDB cluster
-  - Limited historical data available
-  - Need for scalable, future-proof solution
-
-* **Action:**
-  - Developed comprehensive analysis approach:
-    - Engaged with multiple stakeholders
-    - Created Python scripts for metric extraction
-    - Implemented comprehensive monitoring
-  - Made informed decisions:
-    - Analyzed available data
-    - Consulted with experts
-    - Built in flexibility for future growth
-
-* **Result:**
-  - Successfully deployed scalable cluster:
-    - 4 shards, 2 replicas configuration
-    - Met performance requirements
-    - Supported future growth
-
-### Establishing and driving best practices
-
-* **Situation:**
-  - Lead role in establishing technical standards
-  - Need for consistent practices across teams
-  - Focus on maintainability and efficiency
-
-* **Action:**
-  - Developed comprehensive approach:
-    - Documented successful patterns
-    - Provided practical examples
-    - Conducted knowledge sharing sessions
-    - Created reusable templates
-  - Implemented measurement strategy:
-    - Tracked adoption metrics
-    - Monitored performance improvements
-    - Gathered team feedback
-
-* **Result:**
-  - Successfully drove adoption of Apache Airflow
-  - Improved maintainability and observability
-  - Enhanced team collaboration and efficiency

@@ -1,352 +1,99 @@
-### Designing and implementing a highly available and fault-tolerant ClickHouse cluster
+# Technical Interview Questions for BNP Paribas Data Platform Engineer (AVP)
 
-* **Situation:**
-  - Working as Lead Data Engineer, needed to ensure high availability and fault tolerance for our data infrastructure
+### 1. Can you describe your experience with ClickHouse in a production environment? What were the main challenges you faced and how did you overcome them?
+**Situation:** At SecurityHQ, I led the migration from MongoDB to ClickHouse Cloud to address the need for scalable, high-performance analytics.
+**Task:** My responsibility was to ensure a seamless transition to ClickHouse, optimizing for cost, performance, and reliability in a production environment.
+**Action:** I set up secure network access, integrated S3 storage, and implemented monitoring with Grafana and ClickHouse dashboards. I applied best practices for table engine selection and query optimization, and collaborated with stakeholders to ensure the solution met business needs.
+**Result:** The migration resulted in a 75% reduction in annual costs and over 1000x improvement in analytical query performance. The platform supported rapid analytics for diverse clients.
+**Learning:** I learned the importance of iterative testing, stakeholder engagement, and leveraging community best practices for successful production deployments.
 
-* **Obstacle:**
-  - Direct ClickHouse cluster experience limited to ClickHouse Cloud managed service
-  - Need to demonstrate relevant architectural knowledge
+### 2. How have you designed and implemented high availability and disaster recovery strategies for ClickHouse or other distributed databases?
+**Situation:** At SecurityHQ, we needed to ensure our data platform could withstand failures and recover quickly, especially as our data volumes and client expectations grew.
+**Task:** I was responsible for designing and implementing high availability and disaster recovery for our core databases.
+**Action:** While I have not set up a ClickHouse cluster, I have designed and managed a sharded, replicated MongoDB cluster in production. This involved configuring replica sets for automatic failover, sharding for scalability, and using Ops Manager for automated backups and restores. I documented all procedures and regularly tested failover and recovery scenarios to ensure operational readiness.
+**Result:** The MongoDB cluster provided robust high availability and disaster recovery, with minimal downtime during node failures and rapid recovery from backups. This setup met our business continuity requirements and client SLAs.
+**Learning:** I learned the importance of regular testing, clear documentation, and automation in building resilient data platforms. I am actively learning ClickHouse Keeper and cluster management to extend these principles to ClickHouse in the future.
 
-* **Action:**
-  - Architected and deployed a self-hosted MongoDB cluster with similar HA requirements:
-    - Implemented 4 shards with 2 replicas each for optimal data distribution and redundancy
-    - Designed comprehensive sharding strategy based on data access patterns
-    - Set up config servers for coordination (similar role to ClickHouse Keeper)
-    - Configured MongoDB Ops Manager for advanced monitoring capabilities:
-      - Set up custom dashboards for key metrics
-      - Implemented automated backup schedules
-      - Configured alerting thresholds for critical metrics
-    - Created Python scripts for metric extraction and analysis
-    - Documented deployment procedures and maintenance protocols
+### 3. Walk us through a recent ClickHouse migration project you led or contributed to. What was your approach to data modelling and performance optimization?
+**Situation:** The migration from MongoDB to ClickHouse at SecurityHQ required a new approach to data modelling for analytics.
+**Task:** My goal was to design a schema that enabled fast, flexible analytics while minimizing storage costs.
+**Action:** I leveraged denormalized schemas, materialized views, and the appropriate MergeTree engines. I benchmarked query performance and iterated on the model based on real-world workloads and user feedback.
+**Result:** The new model enabled sub-second analytics and reduced infrastructure costs by 80%.
+**Learning:** I learned that close collaboration with end users and iterative benchmarking are essential for effective data modelling.
 
-* **Result:**
-  - Successfully maintained 99.99% uptime for the database infrastructure
-  - Achieved robust fault tolerance through replication with <10ms replication lag
-  - Implemented comprehensive monitoring and alerting system:
-    - Real-time alerts for disk usage exceeding 80%
-    - CPU and RAM usage monitoring (alerts at >90% for 5 mins)
-    - Automated issue escalation via email and Microsoft Teams
-  - Zero data loss incidents during the entire operational period
-  - Reduced mean time to recovery (MTTR) by 60% through automated failover
+### 4. What steps do you take to ensure data security and compliance in your data platforms?
+**Situation:** Working with sensitive client data at SecurityHQ required strict security and compliance measures.
+**Task:** I was responsible for implementing controls to protect data and meet regulatory requirements.
+**Action:** I used AWS Secrets Manager for credential management, enforced access controls, and enabled encryption for data at rest and in transit. I also audited access logs and followed industry best practices.
+**Result:** The platform met client and regulatory expectations for security and compliance.
+**Learning:** I learned that security is an ongoing process that requires vigilance, automation, and regular review.
 
-* **Reflection:**
-  - While tools differ (Ops Manager vs. ClickHouse Keeper), core principles of coordination, replication, and monitoring are transferable
-  - Experience with distributed systems provides strong foundation for ClickHouse cluster management
+### 5. How do you monitor and troubleshoot performance issues in ClickHouse? Are you familiar with tools like Prometheus and Grafana?
+**Situation:** Performance monitoring was essential to ensure the reliability of our analytics platform.
+**Task:** My role was to set up effective monitoring and quickly resolve any issues.
+**Action:** I implemented monitoring with Grafana and ClickHouse dashboards, tracked key metrics, and configured alerts for critical thresholds. I troubleshot issues by analyzing logs and collaborating with the team.
+**Result:** Issues were detected and resolved quickly, minimizing downtime and ensuring consistent performance.
+**Learning:** I learned that proactive monitoring and clear alerting are vital for maintaining high service levels.
 
-### Key technical challenges of MongoDB to ClickHouse Cloud migration
+### 6. Can you explain your experience integrating databases into DevOps pipelines (e.g., using Jenkins, Ansible, or GitHub Actions)?
+**Situation:** Automating deployments was a priority to support rapid development and reduce errors.
+**Task:** I was responsible for integrating database changes into our CI/CD workflows.
+**Action:** I built CI/CD pipelines using GitHub Actions for Airflow DAG deployment and database schema migrations. I used Docker for containerized testing and deployment.
+**Result:** Deployment times were reduced, and the risk of manual errors was minimized.
+**Learning:** I learned that automation and reproducibility are key to efficient, reliable operations.
 
-* **Situation:**
-  - Tasked with migrating analytics workload from MongoDB to ClickHouse Cloud
+### 7. What is your approach to backup and restore strategies for large-scale analytical databases?
+**Situation:** Data loss or downtime could have significant business impact for our clients.
+**Task:** I needed to ensure reliable backup and restore processes.
+**Action:** I automated regular backups to S3 using ClickHouse tools, documented restore procedures, and tested recovery scenarios. I also applied similar strategies in MongoDB using Ops Manager.
+**Result:** The platform was resilient to data loss, and recovery could be performed quickly and confidently.
+**Learning:** I learned that regular testing and documentation are as important as the backup process itself.
 
-* **Obstacle:**
-  - Complex migration involving different database architectures
-  - Need to maintain data integrity and minimize downtime
-  - Security considerations across environments
+### 8. Have you contributed to or customized ClickHouse at the code level (e.g., with C++ or other languages)? If not, how would you approach learning this?
+**Situation:** My experience with ClickHouse has focused on deployment, configuration, and optimization rather than core code contributions.
+**Task:** I am eager to deepen my understanding of ClickHouse internals and contribute to the open-source community.
+**Action:** I have contributed to open-source projects in Python, Java, and Rust (see my GitHub), and I am actively learning C++ fundamentals. My approach would be to study the ClickHouse codebase, start with documentation or plugin contributions, and engage with the community.
+**Result:** I am well-prepared to contribute to ClickHouse in the future as my C++ skills mature.
+**Learning:** I learned that a growth mindset and willingness to learn new languages are essential for long-term technical impact.
 
-* **Action:**
-  - Implemented comprehensive migration strategy:
-    - Established secure connectivity between environments:
-      - Set up VPC peering between MongoDB and ClickHouse Cloud
-      - Implemented encryption in transit using TLS
-      - Configured necessary security groups and IAM roles
-    - Designed schema transformation strategy:
-      - Analyzed existing MongoDB document structures
-      - Created optimal ClickHouse table schemas using appropriate MergeTree engines
-      - Implemented data type mappings considering ClickHouse's columnar nature
-      - Developed transformation logic for complex nested documents
-    - Configured AWS DMS for efficient data loading:
-      - Set up source and target endpoints
-      - Defined table mappings and transformation rules
-      - Implemented change data capture (CDC) for ongoing replication
-    - Established robust monitoring framework:
-      - Created custom dashboards for migration progress
-      - Set up alerts for replication lag and errors
-      - Implemented validation checks for data consistency
-    - Developed fallback procedures and rollback plans
+### 9. Describe your experience administering databases on Unix/Linux systems. How do you monitor system resources and ensure optimal performance?
+**Situation:** All my database deployments, including MongoDB and ClickHouse, have been on Linux systems.
+**Task:** I was responsible for ensuring optimal performance and reliability.
+**Action:** I used native tools (top, htop, iostat), automated monitoring, and Grafana dashboards to track CPU, memory, and disk I/O. I tuned system parameters and responded proactively to alerts.
+**Result:** Systems remained stable and performant, supporting business needs without interruption.
+**Learning:** I learned that deep familiarity with the OS and proactive monitoring are foundational for database reliability.
 
-* **Result:**
-  - Achieved significant cost optimization:
-    - 80% reduction in infrastructure costs
-    - Reduced storage costs through effective compression
-    - Optimized compute resource utilization
-  - Dramatic performance improvements:
-    - Query performance boost of >1000x for analytical workloads
-    - Reduced data processing time by 65%
-    - Improved data freshness with near real-time updates
-  - Successfully integrated with existing infrastructure:
-    - Seamless PostgreSQL integration using specialized engines
-    - Implemented Refreshable Materialized Views for real-time data sync
-    - Zero downtime during the entire migration process
-  - Enhanced data accessibility:
-    - Simplified query patterns for analytics teams
-    - Improved data discovery through better documentation
-    - Reduced dependency on custom aggregation logic
+### 10. What are some common issues you’ve encountered with Linux-based database hosting, and how did you resolve them?
+**Situation:** Hosting databases on Linux presented challenges such as disk space exhaustion and high I/O latency.
+**Task:** My role was to identify and resolve these issues quickly.
+**Action:** I implemented disk usage alerts, optimized storage layouts, and tuned kernel parameters. I also automated failover and recovery procedures where possible.
+**Result:** Issues were resolved before they could impact users, and system reliability improved.
+**Learning:** I learned that automation and early detection are key to preventing outages.
 
-* **Reflection:**
-  - Critical success factors:
-    - Thorough planning and testing
-    - Understanding both source and target architectures
-    - Leveraging cloud-native tools and features
+### 11. Tell us about a time you optimized an ETL pipeline for high throughput and reliability. What tools and techniques did you use?
+**Situation:** At SecurityHQ, our event log ingestion pipeline was responsible for processing over 10TB of data weekly, and we were experiencing bottlenecks and reliability issues as data volumes grew.
+**Task:** My responsibility was to redesign the pipeline to maximize throughput and ensure reliability, minimizing downtime and manual intervention.
+**Action:** I re-architected the pipeline using Apache Airflow for orchestration and asynchronous Python for ingestion, which allowed for parallel processing of large data batches. I adopted efficient data formats like Parquet to reduce I/O overhead and containerized the pipeline for reproducibility and easier deployment. I also implemented structured logging for better monitoring and troubleshooting.
+**Result:** The new pipeline achieved reliable, high-throughput ingestion with minimal downtime, supporting the business’s growing data needs without additional operational burden.
+**Learning:** I learned that combining the right orchestration tools with efficient data formats and containerization can dramatically improve both scalability and reliability. This experience also reinforced the value of observability in production pipelines.
 
-### Optimizing slow-running analytical queries in ClickHouse
+### 12. How do you approach data modelling for analytical workloads (e.g., star schemas, denormalization)?
+**Situation:** When migrating from MongoDB to ClickHouse at SecurityHQ, we needed to support fast, flexible analytics for large-scale event data.
+**Task:** My task was to design a data model that would enable sub-second analytics and support complex reporting requirements.
+**Action:** I leveraged denormalized schemas and materialized views in ClickHouse, applying star schema principles where appropriate. I benchmarked different models using real-world queries and iterated based on performance data and feedback from analytics users.
+**Result:** The resulting models enabled sub-second query performance and made it easy for business users to generate reports, directly supporting our analytics goals.
+**Learning:** I learned that iterative design, benchmarking, and close collaboration with end users are crucial for effective data modelling in analytical systems.
 
-* **Situation:**
-  - Lead Data Engineer responsible for query performance optimization
-  - Need to ensure efficient analytical processing for large datasets
+### 13. How do you collaborate with development teams to optimize database schemas and queries?
+**Situation:** At SecurityHQ, optimizing database performance required close collaboration between data engineering and development teams.
+**Task:** I was responsible for ensuring that database schemas and queries were efficient and scalable as new features were developed.
+**Action:** I led design reviews, provided training on ClickHouse best practices, and created clear documentation. I encouraged open feedback and peer code reviews, and shared insights from my own side projects and open-source contributions to foster a culture of learning.
+**Result:** Teams adopted optimized schemas and queries, which led to measurable improvements in system performance and developer productivity.
+**Learning:** I learned that open communication, documentation, and a willingness to share practical experience are key to successful cross-team collaboration.
 
-* **Obstacle:**
-  - Complex queries with multiple joins and aggregations
-  - Large data volumes affecting performance
-  - Need to maintain data freshness while optimizing performance
-
-* **Action:**
-  - Implemented systematic optimization approach:
-    - Utilized EXPLAIN to analyze query execution plans
-    - Reviewed and optimized table schemas:
-      - Selected appropriate MergeTree engine variants
-      - Optimized primary key and sorting key definitions
-    - Implemented materialized views for common aggregations
-    - Set up query profiling and monitoring
-    - Configured proper settings for parallel query execution
-
-* **Result:**
-  - Achieved significant performance improvements:
-    - Reduced query execution times by over 65%
-    - Improved resource utilization
-    - Enhanced end-user experience with faster analytics
-  - Established performance monitoring framework
-  - Created documentation for query optimization best practices
-
-* **Reflection:**
-  - Understanding ClickHouse's columnar nature crucial for optimization
-  - Importance of balancing performance with maintainability
-  - Value of systematic approach to performance tuning
-
-### Sharding in ClickHouse - Decision making and implementation
-
-* **Situation:**
-  - Growing data volumes and increasing query complexity
-  - Need to scale analytics platform horizontally
-
-* **Obstacle:**
-  - Complex requirements for data distribution
-  - Need to maintain query performance across shards
-  - Operational complexity of managing distributed system
-
-* **Action:**
-  - Leveraged experience from MongoDB sharded cluster (4 shards, 2 replicas):
-    - Designed sharding strategy based on data access patterns
-    - Implemented distributed table engine configuration
-    - Set up monitoring for shard health and performance
-    - Created automated deployment and management scripts
-
-* **Result:**
-  - Successfully implemented scalable architecture:
-    - Improved query performance through parallel processing
-    - Achieved better resource utilization
-    - Maintained high availability with replication
-  - Established robust monitoring and management procedures
-
-* **Reflection:**
-  - Sharding decisions require careful analysis of data patterns
-  - Operational complexity must be weighed against performance benefits
-  - Experience with MongoDB sharding provided valuable insights
-
-### ClickHouse data modeling for analytical workloads
-
-* **Situation:**
-  - Migration from MongoDB to ClickHouse for analytics
-  - Need to optimize data model for analytical queries
-
-* **Obstacle:**
-  - Different paradigm (document store vs. columnar)
-  - Complex requirements for efficient analytics
-  - Need to maintain data consistency and accessibility
-
-* **Action:**
-  - Developed comprehensive data modeling strategy:
-    - Analyzed query patterns and access requirements
-    - Designed optimized schema for columnar storage:
-      - Proper column ordering and compression
-      - Efficient primary key selection
-      - Appropriate MergeTree engine variants
-    - Implemented materialized views for common aggregations
-    - Created data dictionary for business terms
-
-* **Result:**
-  - Achieved optimal analytical performance:
-    - >1000x improvement in query speeds
-    - Reduced storage costs through compression
-    - Simplified analytical queries
-  - Enhanced data accessibility and understanding
-  - Established clear data modeling standards
-
-* **Reflection:**
-  - ClickHouse's columnar nature requires different modeling approach
-  - Balance between normalization and query performance crucial
-  - Importance of understanding business requirements
-
-### Backup and disaster recovery for ClickHouse
-
-* **Situation:**
-  - Responsible for ensuring data safety and business continuity
-  - Managing ClickHouse Cloud and previously MongoDB environments
-
-* **Obstacle:**
-  - Need to maintain strict RPO/RTO requirements
-  - Complex distributed system architecture
-  - Balance between backup frequency and performance impact
-
-* **Action:**
-  - Implemented comprehensive backup strategy:
-    - Utilized ClickHouse Cloud's native backup capabilities
-    - Configured automated backup schedules
-    - Implemented point-in-time recovery capability
-    - Created disaster recovery playbooks
-    - Regular backup testing and validation
-
-* **Result:**
-  - Achieved robust data protection:
-    - Zero data loss incidents
-    - Successful recovery tests
-    - Met RPO/RTO objectives
-  - Improved team confidence in recovery capabilities
-  - Clear documentation and procedures
-
-* **Reflection:**
-  - Backup strategy must align with business requirements
-  - Regular testing crucial for confidence in recovery
-  - Cloud services simplify some aspects of backup/recovery
-
-### Monitoring ClickHouse cluster health and performance
-
-* **Situation:**
-  - Lead responsibility for ClickHouse cluster operations
-  - Need to ensure optimal performance and availability
-
-* **Obstacle:**
-  - Complex distributed system to monitor
-  - Multiple potential failure points
-  - Need for proactive issue detection
-
-* **Action:**
-  - Implemented comprehensive monitoring solution:
-    - Utilized ClickHouse system tables for metrics
-    - Integrated with Grafana for visualization
-    - Set up alerting for key metrics:
-      - Query performance
-      - Resource utilization
-      - Replication status
-      - Error rates
-    - Created custom dashboards for different stakeholders
-
-* **Result:**
-  - Achieved proactive monitoring capability:
-    - Early detection of potential issues
-    - Reduced mean time to resolution
-    - Improved system reliability
-  - Better visibility into system performance
-  - Enhanced capacity planning capabilities
-
-* **Reflection:**
-  - Monitoring is crucial for maintaining reliability
-  - Different stakeholders need different views of system health
-  - Proactive monitoring prevents many issues
-
-### Linux/Unix system diagnostics for ClickHouse performance
-
-* **Situation:**
-  - Need to diagnose performance issues in ClickHouse
-  - Complex interaction between database and OS
-
-* **Obstacle:**
-  - Multiple potential bottleneck sources
-  - Need to minimize impact of diagnostics
-  - Complex system interactions
-
-* **Action:**
-  - Applied systematic diagnostic approach:
-    - Utilized key Linux tools:
-      - top/htop for process analysis
-      - iostat for disk performance
-      - vmstat for memory statistics
-      - netstat for network analysis
-    - Correlated OS metrics with ClickHouse logs
-    - Created diagnostic scripts for common issues
-
-* **Result:**
-  - Improved problem resolution:
-    - Faster identification of root causes
-    - More efficient resource utilization
-    - Better system stability
-  - Enhanced team diagnostic capabilities
-  - Documented common issues and solutions
-
-* **Reflection:**
-  - Understanding full stack crucial for performance
-  - Systematic approach key to effective diagnosis
-  - Documentation helps team knowledge sharing
-
-### CI/CD pipeline integration for ClickHouse
-
-* **Situation:**
-  - Need to automate ClickHouse schema and configuration management
-  - Experience with GitHub Actions for CI/CD
-
-* **Obstacle:**
-  - Complex database changes require careful handling
-  - Need to maintain data integrity
-  - Multiple environments to manage
-
-* **Action:**
-  - Implemented CI/CD pipeline using GitHub Actions:
-    - Version controlled schema definitions
-    - Automated testing of schema changes
-    - Implemented deployment validation
-    - Created rollback procedures
-    - Set up proper access controls
-
-* **Result:**
-  - Achieved automated, reliable deployments:
-    - Reduced deployment errors
-    - Faster implementation of changes
-    - Better change tracking
-  - Improved team collaboration
-  - Enhanced security through controlled processes
-
-* **Reflection:**
-  - Automation crucial for reliable database management
-  - Testing and validation essential for database changes
-  - Version control provides valuable audit trail
-
-### ClickHouse vs MongoDB for analytics - Architecture and performance
-
-* **Situation:**
-  - Led migration from MongoDB to ClickHouse
-  - Need to optimize for analytical workloads
-
-* **Obstacle:**
-  - Different database paradigms
-  - Complex migration requirements
-  - Need to maintain performance and reliability
-
-* **Action:**
-  - Conducted comprehensive comparison:
-    - Analyzed architectural differences
-    - Evaluated performance characteristics
-    - Tested different query patterns
-    - Measured resource utilization
-    - Documented strengths and weaknesses
-
-* **Result:**
-  - Successfully optimized analytics platform:
-    - 80% cost reduction
-    - >1000x query performance improvement
-    - Better resource utilization
-  - Clear understanding of appropriate use cases
-  - Improved system architecture
-
-* **Reflection:**
-  - Different databases excel at different workloads
-  - Understanding architectural differences crucial
-  - Cost and performance benefits justified migration
+### 14. Can you give an example of how you have trained or mentored others in new technologies or platforms?
+**Situation:** As Lead Data Engineer at SecurityHQ, I was expected to upskill my team as we adopted new technologies like ClickHouse and Airflow.
+**Task:** My goal was to ensure the team could confidently use these tools and follow best practices.
+**Action:** I mentored five engineers through hands-on workshops, created onboarding materials, and led by example by sharing my own learning from open-source projects and GitHub. I encouraged team members to participate in side projects and open-source contributions to deepen their skills.
+**Result:** The team became more self-sufficient and innovative, successfully adopting new technologies and contributing their own improvements to our data platform.
+**Learning:** I learned that mentorship is most effective when it combines structured guidance with opportunities for independent exploration and real-world application.
