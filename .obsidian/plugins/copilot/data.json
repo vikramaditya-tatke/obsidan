@@ -13,13 +13,13 @@
   "azureOpenAIApiVersion": "",
   "azureOpenAIApiEmbeddingDeploymentName": "",
   "googleApiKey": "",
-  "openRouterAiApiKey": "",
+  "openRouterAiApiKey": "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",
   "xaiApiKey": "",
   "mistralApiKey": "",
-  "deepseekApiKey": "",
+  "deepseekApiKey": "sk-fb1a0d2ef6144e1db56508fdd38ddd8d",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "gpt-4.1|openai",
-  "embeddingModelKey": "text-embedding-3-small|openai",
+  "defaultModelKey": "google/gemini-2.5-flash-preview|openai",
+  "embeddingModelKey": "text-embedding-3-large|openai",
   "temperature": 0.1,
   "maxTokens": 1000,
   "contextTurns": 15,
@@ -29,7 +29,7 @@
   "stream": true,
   "defaultSaveFolder": "copilot-conversations",
   "defaultConversationTag": "copilot-conversation",
-  "autosaveChat": false,
+  "autosaveChat": true,
   "defaultOpenArea": "view",
   "customPromptsFolder": "copilot-custom-prompts",
   "indexVaultToVectorStore": "ON MODE SWITCH",
@@ -46,7 +46,7 @@
     {
       "name": "copilot-plus-flash",
       "provider": "copilot-plus",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "plusExclusive": true,
@@ -57,7 +57,7 @@
     {
       "name": "gpt-4.1",
       "provider": "openai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "capabilities": [
@@ -67,7 +67,7 @@
     {
       "name": "gpt-4.1-mini",
       "provider": "openai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "capabilities": [
@@ -77,7 +77,7 @@
     {
       "name": "gpt-4.1-nano",
       "provider": "openai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "capabilities": [
@@ -87,7 +87,7 @@
     {
       "name": "o4-mini",
       "provider": "openai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "capabilities": [
@@ -97,7 +97,7 @@
     {
       "name": "claude-3-5-sonnet-latest",
       "provider": "anthropic",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "capabilities": [
@@ -105,73 +105,38 @@
       ]
     },
     {
-      "name": "claude-3-5-haiku-latest",
-      "provider": "anthropic",
+      "name": "deepseek/deepseek-chat:free",
+      "provider": "openrouterai",
       "enabled": true,
-      "isBuiltIn": true
-    },
-    {
-      "name": "grok-3-beta",
-      "provider": "xai",
-      "enabled": true,
-      "isBuiltIn": true
-    },
-    {
-      "name": "grok-3-mini-beta",
-      "provider": "xai",
-      "enabled": true,
-      "isBuiltIn": true
-    },
-    {
-      "name": "command-r",
-      "provider": "cohereai",
-      "enabled": true,
-      "isBuiltIn": true
-    },
-    {
-      "name": "command-r-plus",
-      "provider": "cohereai",
-      "enabled": true,
-      "isBuiltIn": true
-    },
-    {
-      "name": "gemini-2.0-pro-exp",
-      "provider": "google",
-      "enabled": true,
-      "isBuiltIn": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "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",
+      "isEmbeddingModel": false,
       "capabilities": [
-        "vision"
-      ]
+        "reasoning",
+        "vision",
+        "websearch"
+      ],
+      "stream": true,
+      "displayName": "DeepseekV3",
+      "enableCors": false
     },
     {
-      "name": "gemini-2.0-flash",
-      "provider": "google",
+      "name": "google/gemini-2.5-flash-preview",
+      "provider": "openai",
       "enabled": true,
-      "isBuiltIn": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "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",
+      "isEmbeddingModel": false,
       "capabilities": [
-        "vision"
-      ]
-    },
-    {
-      "name": "azure-openai",
-      "provider": "azure openai",
-      "enabled": true,
-      "isBuiltIn": true
-    },
-    {
-      "name": "deepseek-chat",
-      "provider": "deepseek",
-      "enabled": true,
-      "isBuiltIn": true
-    },
-    {
-      "name": "deepseek-reasoner",
-      "provider": "deepseek",
-      "enabled": true,
-      "isBuiltIn": true,
-      "capabilities": [
-        "reasoning"
-      ]
+        "reasoning",
+        "vision",
+        "websearch"
+      ],
+      "stream": true,
+      "displayName": "GeminiFlash2.5Preview",
+      "enableCors": false
     }
   ],
   "activeEmbeddingModels": [

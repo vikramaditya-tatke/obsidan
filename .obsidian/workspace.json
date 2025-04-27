@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2801e16383729473",
+        "id": "c8962f5a0b5e936d",
         "type": "tabs",
         "children": [
           {
-            "id": "3ca63fdbed79c8d2",
+            "id": "5d5cc519caee42e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Preps/BNP Paribas/Gap Analysis between JD and Experience.md",
+                "file": "Interview Preps/BNP Paribas/Vikramaditya Tatke CV.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gap Analysis between JD and Experience"
+              "title": "Vikramaditya Tatke CV"
             }
           }
         ]
@@ -88,20 +88,19 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Preps/BNP Paribas/Gap Analysis between JD and Experience.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Gap Analysis between JD and Experience"
+              "title": "Outline"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 362
+    "width": 320
   },
   "right": {
     "id": "e603ce187a513e87",
@@ -110,6 +109,7 @@
       {
         "id": "3a80d8853aea0026",
         "type": "tabs",
+        "dimension": 43.163841807909606,
         "children": [
           {
             "id": "a8d2e4bf03b9c933",
@@ -174,6 +174,7 @@
       {
         "id": "665ab45fc5da30de",
         "type": "tabs",
+        "dimension": 22.598870056497177,
         "children": [
           {
             "id": "0698a3c044074ba1",
@@ -190,6 +191,7 @@
       {
         "id": "e6997c38398994c5",
         "type": "tabs",
+        "dimension": 34.23728813559322,
         "children": [
           {
             "id": "365d8c44c682c86c",
@@ -218,20 +220,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "omnisearch:Omnisearch": false,
       "graph:Open graph view": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3ca63fdbed79c8d2",
+  "active": "a59bfb739fd0c2c3",
   "lastOpenFiles": [
-    "Interview Preps/BNP Paribas/Q&A - Technical.md",
-    "Interview Preps/BNP Paribas/Gap Analysis between JD and Experience.md",
-    "Interview Preps/BNP Paribas/Q&A - Behavourial.md",
+    "Interview Preps/BNP Paribas/Vikramaditya Tatke CV.md",
+    "Untitled.canvas",
+    "Interview Preps/BNP Paribas/Vision and Mission.md",
     "Interview Preps/BNP Paribas/Data Platform Engineer - Assistant Vice President.md",
+    "Interview Preps/BNP Paribas/Gap Analysis between JD and Experience.md",
+    "document.pdf",
+    "Interview Preps/BNP Paribas/Q&A - Technical.md",
+    "Interview Preps/BNP Paribas/Q&A - Behavourial.md",
     "Interview Preps/BNP Paribas/Q&A - Behavioural - Updated.md",
     "Interview Preps/BNP Paribas/Q&A - Technical - Updated.md",
     "Interview Preps/BNP Paribas/Q&A - Technical - New.md",
     "Interview Preps/BNP Paribas/Q&A - Behavourial - New.md",
-    "Interview Preps/BNP Paribas/Vision and Mission.md",
     "Interview Preps/BNP Paribas/Vikramaditya Tatke Cover Letter.md",
     "Interview Preps/BNP Paribas/Q&A - Technicalmd",
     "Interview Preps/BNP Paribas/Vikramaditya Tatke Skillset Elaboration.md",
@@ -240,7 +246,6 @@
     "README.md",
     "ClickHouse/Self-managed ClickHouse References.md",
     "ClickHouse/Self-managed ClickHouse References",
-    "Interview Preps/BNP Paribas/Vikramaditya Tatke CV.md",
     "ClickHouse/Self-managed ClickHouse.md",
     "Interview Preps/BNP Paribas",
     "Interview Preps",

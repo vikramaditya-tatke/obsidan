@@ -10,21 +10,21 @@
 ### 2. How have you designed and implemented high availability and disaster recovery strategies for ClickHouse or other distributed databases?
 **Situation:** At SecurityHQ, we needed to ensure our data platform could withstand failures and recover quickly, especially as our data volumes and client expectations grew.
 **Task:** I was responsible for designing and implementing high availability and disaster recovery for our core databases.
-**Action:** While I have not set up a ClickHouse cluster, I have designed and managed a sharded, replicated MongoDB cluster in production. This involved configuring replica sets for automatic failover, sharding for scalability, and using Ops Manager for automated backups and restores. I documented all procedures and regularly tested failover and recovery scenarios to ensure operational readiness.
+**Action:** While I have not set up a ClickHouse cluster, I have designed and managed a sharded, replicated MongoDB cluster in production. This involved configuring replica sets for automatic failover, sharding for scalability, and using Ops Manager for automated backups and restores. I conducted capacity planning, query and data size estimations, documented all procedures and tested failover and recovery scenarios to ensure operational readiness.
 **Result:** The MongoDB cluster provided robust high availability and disaster recovery, with minimal downtime during node failures and rapid recovery from backups. This setup met our business continuity requirements and client SLAs.
 **Learning:** I learned the importance of regular testing, clear documentation, and automation in building resilient data platforms. I am actively learning ClickHouse Keeper and cluster management to extend these principles to ClickHouse in the future.
 
 ### 3. Walk us through a recent ClickHouse migration project you led or contributed to. What was your approach to data modelling and performance optimization?
 **Situation:** The migration from MongoDB to ClickHouse at SecurityHQ required a new approach to data modelling for analytics.
 **Task:** My goal was to design a schema that enabled fast, flexible analytics while minimizing storage costs.
-**Action:** I leveraged denormalized schemas, materialized views, and the appropriate MergeTree engines. I benchmarked query performance and iterated on the model based on real-world workloads and user feedback.
+**Action:** I created a test environment similar to the production setup. I leveraged de-normalized schemas, materialized views, and the appropriate MergeTree engines. I benchmarked query performance and iterated on the model based on real-world workloads and user feedback.
 **Result:** The new model enabled sub-second analytics and reduced infrastructure costs by 80%.
 **Learning:** I learned that close collaboration with end users and iterative benchmarking are essential for effective data modelling.
 
 ### 4. What steps do you take to ensure data security and compliance in your data platforms?
 **Situation:** Working with sensitive client data at SecurityHQ required strict security and compliance measures.
 **Task:** I was responsible for implementing controls to protect data and meet regulatory requirements.
-**Action:** I used AWS Secrets Manager for credential management, enforced access controls, and enabled encryption for data at rest and in transit. I also audited access logs and followed industry best practices.
+**Action:** I used AWS Secrets Manager for credential management, enforced access controls, and enabled encryption for data at rest and in transit. I faciliated the integration of audit logs with SIEM tools used in the organization.
 **Result:** The platform met client and regulatory expectations for security and compliance.
 **Learning:** I learned that security is an ongoing process that requires vigilance, automation, and regular review.
 
