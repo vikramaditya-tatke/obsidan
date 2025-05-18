@@ -1,6 +1,5 @@
 # Setup
 
-
 ## Recommendations 
 - ClickHouse tends to work more efficiently with a large number of cores at a lower clock rate than with fewer cores at a higher clock rate.
 - To calculate the required volume of RAM, you may estimate the size of temporary data for [GROUP BY](https://clickhouse.com/docs/sql-reference/statements/select/group-by), [DISTINCT](https://clickhouse.com/docs/sql-reference/statements/select/distinct), [JOIN](https://clickhouse.com/docs/sql-reference/statements/select/join) and other operations you use.
