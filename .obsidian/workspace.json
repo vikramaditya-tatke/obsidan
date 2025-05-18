@@ -8,20 +8,91 @@
         "type": "tabs",
         "children": [
           {
+            "id": "d0e658de13e643c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interview Preps/BNP Paribas/Data Platform Engineer - Assistant Vice President.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data Platform Engineer - Assistant Vice President"
+            }
+          },
+          {
             "id": "5d5cc519caee42e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Preps/BNP Paribas/Vikramaditya Tatke CV.md",
+                "file": "Interview Preps/BNP Paribas/Gap Analysis between JD and Experience.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vikramaditya Tatke CV"
+              "title": "Gap Analysis between JD and Experience"
+            }
+          },
+          {
+            "id": "f0aec68c9c3046c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interview Preps/BNP Paribas/Q&A - Behavourial.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Q&A - Behavourial"
+            }
+          },
+          {
+            "id": "4aec3e0f5eb600a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interview Preps/Spotify/Questions to ask the recruiter.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Questions to ask the recruiter"
+            }
+          },
+          {
+            "id": "adf1602c1be1a2a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interview Preps/BNP Paribas/Vikramaditya Tatke Cover Letter.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vikramaditya Tatke Cover Letter"
+            }
+          },
+          {
+            "id": "9ae5f569b67b2900",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interview Preps/BNP Paribas/Questions for the Hiring Manager.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Questions for the Hiring Manager"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -88,12 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Interview Preps/Spotify/Questions to ask the recruiter.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Questions to ask the recruiter"
             }
           }
         ]
@@ -109,7 +181,7 @@
       {
         "id": "3a80d8853aea0026",
         "type": "tabs",
-        "dimension": 43.163841807909606,
+        "dimension": 34.23860329776915,
         "children": [
           {
             "id": "a8d2e4bf03b9c933",
@@ -174,7 +246,7 @@
       {
         "id": "665ab45fc5da30de",
         "type": "tabs",
-        "dimension": 22.598870056497177,
+        "dimension": 31.522793404461687,
         "children": [
           {
             "id": "0698a3c044074ba1",
@@ -191,7 +263,7 @@
       {
         "id": "e6997c38398994c5",
         "type": "tabs",
-        "dimension": 34.23728813559322,
+        "dimension": 34.23860329776915,
         "children": [
           {
             "id": "365d8c44c682c86c",
@@ -216,29 +288,37 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "omnisearch:Omnisearch": false,
-      "graph:Open graph view": false,
       "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "a59bfb739fd0c2c3",
+  "active": "4aec3e0f5eb600a7",
   "lastOpenFiles": [
-    "Interview Preps/BNP Paribas/Vikramaditya Tatke CV.md",
-    "Untitled.canvas",
-    "Interview Preps/BNP Paribas/Vision and Mission.md",
-    "Interview Preps/BNP Paribas/Data Platform Engineer - Assistant Vice President.md",
-    "Interview Preps/BNP Paribas/Gap Analysis between JD and Experience.md",
+    "Interview Preps/Spotify/Untitled.md",
     "document.pdf",
-    "Interview Preps/BNP Paribas/Q&A - Technical.md",
+    "Interview Preps/Spotify/Questions to ask the recruiter.md",
+    "Interview Preps/Spotify/Untitled 1.md",
     "Interview Preps/BNP Paribas/Q&A - Behavourial.md",
+    "Interview Preps/Spotify",
+    "Interview Preps/BNP Paribas/BNP Paribas - Recent Achievements.md",
+    "Interview Preps/BNP Paribas/Q&A - Technical.md",
+    "Interview Preps/BNP Paribas/Vikramaditya Tatke CV.md",
+    "Interview Preps/BNP Paribas/Vikramaditya Tatke Cover Letter.md",
+    "Interview Preps/BNP Paribas/Questions for the Hiring Manager.md",
+    "Interview Preps/BNP Paribas/Vikramaditya_Tatke_CV.pdf",
+    "Interview Preps/BNP Paribas/Untitled.md",
+    "Interview Preps/BNP Paribas/Data Platform Engineer - Assistant Vice President.md",
+    "Interview Preps/BNP Paribas/Vision and Mission.md",
+    "Interview Preps/BNP Paribas/Gap Analysis between JD and Experience.md",
+    "Untitled.canvas",
     "Interview Preps/BNP Paribas/Q&A - Behavioural - Updated.md",
     "Interview Preps/BNP Paribas/Q&A - Technical - Updated.md",
     "Interview Preps/BNP Paribas/Q&A - Technical - New.md",
     "Interview Preps/BNP Paribas/Q&A - Behavourial - New.md",
-    "Interview Preps/BNP Paribas/Vikramaditya Tatke Cover Letter.md",
     "Interview Preps/BNP Paribas/Q&A - Technicalmd",
     "Interview Preps/BNP Paribas/Vikramaditya Tatke Skillset Elaboration.md",
     "Interview Preps/BNP Paribas/Behavioral - Specific Q&A for this position.md",
@@ -252,7 +332,6 @@
     "ClickHouse",
     "Daily Notes/2025-04-25.md",
     "Daily Notes",
-    "Untitled.md",
-    "Untitled 1.md"
+    "Untitled.md"
   ]
 }

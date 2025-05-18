@@ -7,7 +7,7 @@
 **Result:** The migration resulted in a 75% reduction in annual costs and over 1000x improvement in analytical query performance. The platform supported rapid analytics for diverse clients.
 **Learning:** I learned the importance of iterative testing, stakeholder engagement, and leveraging community best practices for successful production deployments.
 
-### 2. How have you designed and implemented high availability and disaster recovery strategies for ClickHouse or other distributed databases?
+### 2. How have you designed and implemented high availability and *disaster recovery* strategies for ClickHouse or other distributed databases?
 **Situation:** At SecurityHQ, we needed to ensure our data platform could withstand failures and recover quickly, especially as our data volumes and client expectations grew.
 **Task:** I was responsible for designing and implementing high availability and disaster recovery for our core databases.
 **Action:** While I have not set up a ClickHouse cluster, I have designed and managed a sharded, replicated MongoDB cluster in production. This involved configuring replica sets for automatic failover, sharding for scalability, and using Ops Manager for automated backups and restores. I conducted capacity planning, query and data size estimations, documented all procedures and tested failover and recovery scenarios to ensure operational readiness.

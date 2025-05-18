@@ -3,31 +3,31 @@
 ### 1. Why are you interested in BNP Paribas and this specific role?
 **Situation:** As I considered my next career step, I sought an organization whose mission and values aligned with my own commitment to responsible innovation and ethical impact.
 **Task:** I wanted to join a team where I could drive technical excellence while contributing to a broader purpose, especially in a role that leverages my expertise in data platforms and distributed systems.
-**Action:** BNP Paribas’s focus on sustainability, employee development, and technological advancement resonated with me. Since I have begun working with ClickHouse, I have been thoroughly impressed with it's capabilities and have been actively following its development and experiment with it's features. The opportunity to shape ClickHouse adoption at scale and work in a collaborative, diverse environment is exactly the challenge I am seeking. BNP Paribas has a strong focus on it's technology vertical - specially on Data and AI. Working within the Data Services team will allow me to explore various verticals in the financial services domain which is exactly the next step I wish to take.
+**Action:** BNP Paribas’s focus on sustainability, employee development, and technological advancement resonated with me. Since I have begun working with ClickHouse, I have been thoroughly impressed with it's capabilities and have been actively following its development and experiment with it's features. The opportunity to shape ClickHouse adoption at an international scale and work in a collaborative, diverse environment is exactly the challenge I am seeking. BNP Paribas has a strong focus on it's technology vertical - specially on Data and AI. Working within the Data Services team will allow me to explore various verticals in the financial services domain which is exactly the next step I wish to take.
 **Result:** I am highly motivated to bring my experience and passion to BNP Paribas, confident that I can make a meaningful impact both technically and culturally.
 **Learning:** This process reinforced the importance of aligning personal and organizational values for long-term fulfillment and success.
 
-### 2. How do you stay up-to-date with new technologies in the data engineering space?
+### 2. How do you stay up-to-date with *new technologies* in the data engineering space?
 **Situation:** The data engineering landscape evolves rapidly, making continuous learning essential.
 **Task:** My goal is to remain at the forefront of industry trends and best practices.
-**Action:** I regularly attend webinars (e.g., ClickHouse, Airflow, AWS Summit), follow open-source communities. I follow videos and blogs made by ClickHouse about their meetups, database version release webinars, and feature explainers. I also experiment with new tools like Evidence.dev and Rill Data, and read technical blogs to deepen my understanding.
+**Action:** I regularly attend webinars (e.g.,  *ClickHouse, Airflow, AWS Summit* ), follow open-source communities. I follow videos and blogs made by ClickHouse about their meetups, database version release webinars, and feature explainers. I also experiment with new tools like Evidence.dev and Rill Data, and read technical blogs to deepen my understanding.
 **Result:** This approach has enabled me to quickly adopt and implement new technologies in my professional and personal projects, keeping my skills sharp and relevant.
 **Learning:** Active engagement with the community and hands-on experimentation are the best ways to stay current and innovative.
 
-### 3. Describe a situation where you had to bridge the gap between database administration and development.
+### 3. Describe a situation where you had to bridge the gap between *database administration* and *development*.
 **Situation:** At SecurityHQ, we faced a major migration from MongoDB to ClickHouse, requiring both operational and development expertise.
 **Task:** I was responsible for ensuring the new platform was robust, performant, and easy for developers to use.
 **Action:** I managed cluster setup, monitoring, and backup strategies while also redesigning schemas and optimizing ETL pipelines. I worked closely with BI analysts to understand the query patterns and modelled the data accordingly and followed best practices laid out by ClickHouse.
 **Result:** The migration was successful, with improved performance and developer productivity. The team became more self-sufficient in managing and extending the platform.
 
-### 4. Tell us about a time you had to mentor or train a team member or stakeholder in a new technology or process. How did you approach it?
+### 4. Tell us about a time you had to *mentor* or train a team member or stakeholder in a new technology or process. How did you approach it?
 **Situation:** As Lead Data Engineer, I was tasked with upskilling a team of five engineers in new data technologies.
 **Task:** My objective was to ensure the team could confidently adopt tools like Airflow and ClickHouse.
 **Action:** I led hands-on workshops, created onboarding materials, and encouraged peer code reviews. I also shared my own learning journey, including my side projects along with the tools I use to make everyday tasks easier. This along with my passionate knowledge delivery inspired curiosity and growth.
 **Result:** The team quickly adapted to the new stack, and several members began contributing their own improvements and ideas.
 **Learning:** Effective mentorship is about empowering others to explore, experiment, and take ownership of their learning.
 
-### 5. Can you share an example of how you handled a challenging collaboration with a cross-functional team?
+### 5. Can you share an example of how you handled a challenging collaboration with a *cross-functional team*?
 **Situation:** During the analytics platform migration, I worked with infrastructure, development, and management teams with differing priorities.
 **Task:** My role was to align everyone on the migration goals and ensure smooth execution.
 **Action:** I facilitated regular meetings with Cyber and Infrastructure teams, translated technical details for non-technical stakeholders, and maintained transparent progress tracking. I also encouraged open feedback and addressed concerns proactively.
