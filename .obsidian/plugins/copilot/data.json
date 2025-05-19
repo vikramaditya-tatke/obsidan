@@ -18,8 +18,8 @@
   "mistralApiKey": "",
   "deepseekApiKey": "sk-fb1a0d2ef6144e1db56508fdd38ddd8d",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "google/gemini-2.5-flash-preview|openai",
-  "embeddingModelKey": "text-embedding-3-large|openai",
+  "defaultModelKey": "deepseek/deepseek-chat:free|openrouterai",
+  "embeddingModelKey": "text-embedding-004|google",
   "temperature": 0.1,
   "maxTokens": 1000,
   "contextTurns": 15,
@@ -32,7 +32,7 @@
   "autosaveChat": true,
   "defaultOpenArea": "view",
   "customPromptsFolder": "copilot-custom-prompts",
-  "indexVaultToVectorStore": "ON MODE SWITCH",
+  "indexVaultToVectorStore": "ON STARTUP",
   "qaExclusions": "",
   "qaInclusions": "",
   "chatNoteContextPath": "",
@@ -119,12 +119,12 @@
       ],
       "stream": true,
       "displayName": "DeepseekV3",
-      "enableCors": false
+      "enableCors": true
     },
     {
       "name": "google/gemini-2.5-flash-preview",
       "provider": "openai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": false,
       "baseUrl": "",
       "apiKey": "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",
@@ -137,6 +137,23 @@
       "stream": true,
       "displayName": "GeminiFlash2.5Preview",
       "enableCors": false
+    },
+    {
+      "name": "google/gemini-2.5-pro-preview",
+      "provider": "openrouterai",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "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",
+      "isEmbeddingModel": false,
+      "capabilities": [
+        "reasoning",
+        "vision",
+        "websearch"
+      ],
+      "stream": true,
+      "displayName": "Gemini2.5Pro",
+      "enableCors": true
     }
   ],
   "activeEmbeddingModels": [
@@ -179,6 +196,14 @@
       "core": true
     },
     {
+      "name": "text-embedding-004",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "enableCors": true
+    },
+    {
       "name": "text-embedding-3-large",
       "provider": "openai",
       "enabled": true,
@@ -193,18 +218,25 @@
       "isEmbeddingModel": true
     },
     {
-      "name": "text-embedding-004",
-      "provider": "google",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true
-    },
-    {
       "name": "azure-openai",
       "provider": "azure openai",
       "enabled": true,
       "isBuiltIn": true,
       "isEmbeddingModel": true
+    },
+    {
+      "name": "gemini-2.5-flash-preview-04-17",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "AIzaSyCmPksnCVZWIUecf2al3YLtcseI2FKhYK0",
+      "isEmbeddingModel": true,
+      "capabilities": [
+        "reasoning",
+        "websearch"
+      ],
+      "displayName": "GeminiFlash2.5Preview"
     }
   ],
   "embeddingRequestsPerMin": 90,
