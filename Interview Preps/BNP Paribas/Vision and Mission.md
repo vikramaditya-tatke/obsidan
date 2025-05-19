@@ -9,10 +9,19 @@ BNP Paribas's mission is to contribute to a responsible and sustainable economy 
 BNP Paribas aims to drive change toward sustainable finance and human-centered banking. As "the bank for a changing world," it is committed to leadership, innovation, service, and making a positive global impact. ([usa.bnpparibas](https://usa.bnpparibas/en/homepage/about-us/the-bnp-paribas-purpose/?utm_source=chatgpt.com))
 
 ## Core Values
-
-BNP Paribas has defined four core values: responsiveness, creativity, commitment, and ambition. ([cardifpinnacle.com](https://www.cardifpinnacle.com/pdf/hrd_values.pdf?utm_source=chatgpt.com))
+BNP Paribas has defined four core values: ([cardifpinnacle.com](https://www.cardifpinnacle.com/pdf/hrd_values.pdf?utm_source=chatgpt.com))
+##### creativity
+##### responsiveness
+##### commitment
+##### ambition
 
 Additionally, the bank emphasizes stability, expertise, responsibility, and fostering a good working environment. ([comparably.com](https://www.comparably.com/companies/bnp-paribas/mission?utm_source=chatgpt.com))
+
+## Management Values
+##### Client Focus
+##### Risk-Aware Entrepreneurship
+##### People Care
+##### Lead by Example
 
 ## Sustainability and Social Responsibility
 
