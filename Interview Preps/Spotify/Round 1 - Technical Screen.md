@@ -51,15 +51,15 @@ Discuss a project related to data engineering
 
 ### LeetCode
 
-| No. | Coding Question                                                                                        | Matching LeetCode Problem                | Difficulty |
-| --- | ------------------------------------------------------------------------------------------------------ | ---------------------------------------- | ---------- |
-| *1* | *Given an array find the sum of all records in it and scale your approach for a million records.*      | *1. Two Sum*                             | *Easy*     |
-| 2   | Write code to find the second largest number in an array. How would you scale it to a million records? | 215. Kth Largest Element in an Array     | Medium     |
-| 3   | How do you delete a linked list?                                                                       | 206. Reverse Linked List                 | Easy       |
-| 4   | Fibonacci (iterative and recursive and dynamic programming)                                            | 509. Fibonacci Number                    | Easy       |
-| 5   | Simple SQL on a single table (group by and accumulate)                                                 | 185. Department Top Three Salaries       | Hard       |
-| 6   | Calculate the median of a window of values over an infinity data stream                                | 295. Find Median from Data Stream        | Hard       |
-| 7   | Given multiple users and the songs they listened to in order, detect the longest common pattern of ... | 718. Maximum Length of Repeated Subarray | Medium     |
+| No. | Coding Question                                                                                        | Matching LeetCode Problem                | Difficulty | Status |
+| --- | ------------------------------------------------------------------------------------------------------ | ---------------------------------------- | ---------- | ------ |
+| 1 | Given an array find the sum of all records in it and scale your approach for a million records.      | 1. Two Sum                             | Easy     | [ ]    |
+| 2   | Write code to find the second largest number in an array. How would you scale it to a million records? | 215. Kth Largest Element in an Array     | Medium     | [ ]    |
+| 3   | How do you delete a linked list?                                                                       | 206. Reverse Linked List                 | Easy       | [ ]    |
+| 4   | Fibonacci (iterative and recursive and dynamic programming)                                            | 509. Fibonacci Number                    | Easy       | [ ]    |
+| 5   | Simple SQL on a single table (group by and accumulate)                                                 | 185. Department Top Three Salaries       | Hard       | [ ]    |
+| 6   | Calculate the median of a window of values over an infinity data stream                                | 295. Find Median from Data Stream        | Hard       | [ ]    |
+| 7   | Given multiple users and the songs they listened to in order, detect the longest common pattern of ... | 718. Maximum Length of Repeated Subarray | Medium     | [ ]    |
 
 ### SQL
 1. Write a query to find the earliest date each user played their third unique song.
@@ -73,20 +73,9 @@ Discuss a project related to data engineering
 ## Technical
 
 1. Common data structures and algorithms (search in sorted list, search in linked list, red-black-tree)
-2. How would you implement a priority queue? 
-
-3. HashMap collision resolution strategies 
-
-| **Area**                                | **Collision Impact**                                  | **Mitigation Strategies**                                                                                                    |
-| --------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| **ETL Deduplication**                   | Dropping valid records (false positives)              | - Use strong, non-truncated hashes (e.g., SHA-256)  <br>- Store and compare full records <br>- Validate duplicates post-hash |
-| **Stream Processing**                   | Incorrect state updates, duplicate suppression errors | - Use full unique keys when tracking state <br>- Validate event IDs directly, not just hashes                                |
-| **Partitioning**                        | Hot partitions, load imbalance, bottlenecks           | - Use high-quality hash functions<br>- Monitor for partition skew <br>- Implement custom partitioners                        |
-| **Window Aggregations / Joins**         | Aggregated metrics may mix data from unrelated keys   | - Ensure strong key uniqueness <br>- Avoid short or lossy hashes <br>- Validate joined keys with secondary checks            |
-| **Bloom Filters / Probabilistic Dedup** | False positives due to hash collisions                | - Use with awareness of trade-offs <br>- Tune filter size and hash functions <br>- Combine with exact filters if possible    |
-
-
-4. Examples of probabilistic data structures, advantages
+2. How would you implement [[Data Engineering Concepts#Priority Queues]]? 
+3. [[Data Engineering Concepts#Hashmap collision resolution strategies]].
+4. Examples of [[Data Engineering Concepts#Probabilistic Data Structures]] advantages
 5. Difference between functional and imperative programming.
 6. How would you represent a graph in-memory?
 7. Difference between columnar and row based database. 
