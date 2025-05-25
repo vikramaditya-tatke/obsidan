@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "560f137c128c2b29",
+        "id": "24823af27c405620",
         "type": "tabs",
         "children": [
           {
-            "id": "6d6513129e1e2c68",
+            "id": "e003d088189461d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Preps/Spotify/Round 1.md",
-                "mode": "source",
+                "file": "Interview Preps/Spotify/Round 1 - Technical Screen.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Round 1"
+              "title": "Round 1 - Technical Screen"
             }
           }
         ]
@@ -33,7 +33,7 @@
       {
         "id": "64c1688679e620f7",
         "type": "tabs",
-        "dimension": 44.84848484848485,
+        "dimension": 43.49376114081996,
         "children": [
           {
             "id": "a59bfb739fd0c2c3",
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#excalidraw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,28 +80,40 @@
       {
         "id": "137ab6806e0908af",
         "type": "tabs",
-        "dimension": 55.15151515151515,
+        "dimension": 26.55971479500891,
         "children": [
           {
-            "id": "99ba8350776b8387",
+            "id": "54fc9e855eb7cdbb",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "Interview Preps/Spotify/Round 1.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Round 1"
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      },
+      {
+        "id": "055cee757f7b7287",
+        "type": "tabs",
+        "dimension": 29.946524064171122,
+        "children": [
+          {
+            "id": "365d8c44c682c86c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 320
+    "width": 346
   },
   "right": {
     "id": "e603ce187a513e87",
@@ -110,7 +122,7 @@
       {
         "id": "3a80d8853aea0026",
         "type": "tabs",
-        "dimension": 34.23860329776915,
+        "dimension": 49.556093623890234,
         "children": [
           {
             "id": "a8d2e4bf03b9c933",
@@ -118,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks"
             }
           },
           {
@@ -152,7 +163,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -160,13 +171,30 @@
             }
           },
           {
-            "id": "54fc9e855eb7cdbb",
+            "id": "99ba8350776b8387",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "outline",
+              "state": {
+                "file": "Interview Preps/Spotify/Round 1 - Technical Screen.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Round 1 - Technical Screen"
+            }
+          },
+          {
+            "id": "1cb85099e33435de",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "copilot-chat-view",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "pinned": true,
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
@@ -175,7 +203,7 @@
       {
         "id": "665ab45fc5da30de",
         "type": "tabs",
-        "dimension": 31.522793404461687,
+        "dimension": 50.44390637610977,
         "children": [
           {
             "id": "0698a3c044074ba1",
@@ -188,27 +216,10 @@
             }
           }
         ]
-      },
-      {
-        "id": "e6997c38398994c5",
-        "type": "tabs",
-        "dimension": 34.23860329776915,
-        "children": [
-          {
-            "id": "365d8c44c682c86c",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 364
+    "width": 400
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,51 +228,50 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "graph:Open graph view": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
+      "graph:Open graph view": false,
+      "obsidian-git:Open Git source control": false,
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "6d6513129e1e2c68",
+  "active": "e003d088189461d9",
   "lastOpenFiles": [
-    "Interview Preps/Spotify/Preparation Checklist.md",
-    "Data Engineering/Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems (Martin Kleppmann) (z-lib.org).pdf",
-    "Interview Preps/Spotify/System Design Round.md",
-    "document.pdf",
-    "Interview Preps/BNP Paribas/Data Platform Engineer - Assistant Vice President.md",
-    "Interview Preps/BNP Paribas/Gap Analysis between JD and Experience.md",
-    "Interview Preps/BNP Paribas/Q&A - Behavourial.md",
-    "Interview Preps/Spotify/Round 1.md",
-    "Interview Preps/Spotify/Batch Data.md",
-    "Excalidraw/System Design.md",
+    "Data Engineering/(Book Summary) Designing Data-Intensive Applications.md",
     "Data Engineering/CAP Theorem.md",
-    "Data Engineering",
-    "Interview Preps/Spotify/Questions to ask the recruiter.md",
+    "Interview Preps/Spotify/Round 1 - Technical Screen.md",
+    "Data Engineering/Batch Data.md",
+    "Interview Preps/Spotify/System Design Round.md",
+    "Data Engineering/Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems (Martin Kleppmann) (z-lib.org).pdf",
+    "Interview Preps/Spotify/Round 1.md",
+    "Interview Preps/Questions to ask the recruiter.md",
+    "README.md",
     "conflict-files-obsidian-git.md",
-    "Excalidraw/EKS-ECS.excalidraw.md",
-    "Excalidraw",
-    "AWS Data Engineer/Fundamentals - Program Kick-Off Day 1.md",
+    "Interview Preps/Spotify/Untitled.md",
+    "Interview Preps/BNP Paribas/Vikramaditya_Tatke_CV.pdf",
+    "Interview Preps/BNP Paribas/Questions for the Hiring Manager.md",
+    "Interview Preps/BNP Paribas/BNP Paribas - Recent Achievements.md",
+    "document.pdf",
+    "Understanding Apache Kafka -  Architecture, Concepts, and Practical Setup.md",
+    "Understanding Apache Kafka -  Architecture, Concepts, and Practical Setup 1.md",
     "AWS Data Engineer/EC2 Basics.png",
+    "AWS Data Engineer/Fundamentals - Program Kick-Off Day 1.md",
+    "Gemini 2.5 Pro Preview - API, Providers, Stats.md",
     "AWS Data Engineer/Data Storage.md",
+    "Excalidraw/EKS-ECS.excalidraw.md",
     "AWS Data Engineer/Compute.md",
     "AWS Data Engineer/AWS Certified Data Engineer - Associate (DEA-C01) Exam Guide.pdf",
-    "AWS Data Engineer",
-    "Interview Preps/Spotify/Untitled 1.md",
+    "copilot-conversations/Give_me_a_list_of_recently_asked_interview_questions_in@20250518_220436.md",
+    "copilot-conversations",
+    "Data Engineering",
+    "Excalidraw/System Design.md",
+    "Excalidraw/Drawing 2025-05-18 00.54.53.excalidraw.md",
     "Interview Preps/Spotify",
-    "Interview Preps/BNP Paribas/BNP Paribas - Recent Achievements.md",
+    "Excalidraw",
+    "AWS Data Engineer/AWS_Certified_Data_Engineer_Exam_Guide.md",
+    "AWS Data Engineer/Unconfirmed 983423.crdownload",
+    "AWS Data Engineer",
     "Interview Preps/BNP Paribas/Q&A - Technical.md",
-    "Interview Preps/BNP Paribas/Vikramaditya Tatke CV.md",
-    "Interview Preps/BNP Paribas/Vikramaditya Tatke Cover Letter.md",
-    "Interview Preps/BNP Paribas/Questions for the Hiring Manager.md",
-    "Interview Preps/BNP Paribas/Vikramaditya_Tatke_CV.pdf",
-    "Interview Preps/BNP Paribas/Untitled.md",
-    "Interview Preps/BNP Paribas/Vision and Mission.md",
-    "Untitled.canvas",
-    "Interview Preps/BNP Paribas/Q&A - Behavioural - Updated.md",
-    "Interview Preps/BNP Paribas/Q&A - Technical - Updated.md",
-    "Interview Preps/BNP Paribas/Q&A - Technicalmd",
-    "ClickHouse/Self-managed ClickHouse References"
+    "Untitled.canvas"
   ]
 }
