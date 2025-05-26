@@ -65,7 +65,6 @@ Spotify is the epitome of a data-intensive application. Think about:
 * **Massive Catalog:** Millions of tracks, podcasts, and metadata.
 * **Real-time Interaction:** Song recommendations, collaborative playlists, social features.
 * **Analytics:** Artist payouts, user behavior analysis, A/B testing for new features.
-As a Data Engineer at Spotify, you'll be responsible for designing, building, and maintaining the systems that handle this data efficiently and reliably. You'll need to choose the right tools and combine them effectively.
 
 ---
 

@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7568e4766ff80ad8",
+        "id": "11bea12291fe3cf7",
         "type": "tabs",
         "children": [
           {
-            "id": "cccf142c0bbcdf00",
+            "id": "40d19122d6b37bb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Engineering/Data Engineering Concepts.md",
-                "mode": "source",
+                "file": "Interview Preps/Spotify/Sample SQL Q&A.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Engineering Concepts"
-            }
-          },
-          {
-            "id": "8a814085f01904ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Engineering/Data Engineering Concepts.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Data Engineering Concepts"
+              "title": "Sample SQL Q&A"
             }
           }
         ]
@@ -137,15 +123,38 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.0034484863281
+    "width": 374.00276947021484
   },
   "right": {
     "id": "e603ce187a513e87",
     "type": "split",
     "children": [
       {
+        "id": "989dbf63f34ecacd",
+        "type": "tabs",
+        "dimension": 29.79664014146773,
+        "children": [
+          {
+            "id": "99ba8350776b8387",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Interview Preps/Spotify/Sample SQL Q&A.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Sample SQL Q&A"
+            }
+          }
+        ]
+      },
+      {
         "id": "3a80d8853aea0026",
         "type": "tabs",
+        "dimension": 70.20335985853228,
         "children": [
           {
             "id": "a8d2e4bf03b9c933",
@@ -194,21 +203,6 @@
             }
           },
           {
-            "id": "99ba8350776b8387",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Data Engineering/Data Engineering Concepts.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Data Engineering Concepts"
-            }
-          },
-          {
             "id": "54fc9e855eb7cdbb",
             "type": "leaf",
             "state": {
@@ -221,21 +215,19 @@
           {
             "id": "1cb85099e33435de",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "pinned": true,
               "icon": "message-square",
               "title": "Copilot"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 529
+    "width": 565
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,45 +243,46 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "cccf142c0bbcdf00",
+  "active": "40d19122d6b37bb2",
   "lastOpenFiles": [
-    "Interview Preps/Spotify/Round 1 - Technical Screen.md",
-    "Data Engineering/Data Engineering Concepts.md",
+    "Interview Preps/Spotify/Spotify Round 1 - Technical Screen.md",
+    "Interview Preps/Spotify/Sample SQL Q&A.md",
+    "Data Engineering/SQL Fundamentals.md",
+    "Excalidraw/EKS-ECS.excalidraw.md",
+    "Programming Fundamentals.md",
+    "SQL LeetCode Questions with Solutions.pdf",
+    "AWS Data Engineer/EC2 Basics.png",
+    "Data Engineering.canvas",
     "Data Engineering/(Book Summary) Designing Data-Intensive Applications.md",
+    "Excalidraw/System Design.md",
+    "Data Engineering/Concepts/OLTP Vs OLAP.md",
+    "Files Formats.md",
+    "Excalidraw/Scripts/Downloaded/Boolean Operations.svg",
+    "Data Engineering/File Formats.md",
+    "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Data Engineering/Concepts/OLTP and OLAP.md",
+    "Data Engineering/Technologies/Kafka.md",
+    "Data Engineering/Technologies/Spark.md",
+    "Data Engineering/Batch Data.md",
+    "Data Structures and Algorithms.md",
+    "Data Engineering/Concepts/Data Engineering Concepts.md",
+    "AWS Data Engineer/Data Storage.md",
+    "Data Engineering/Concepts/Data Modelling.md",
+    "Data Engineering/Technologies",
+    "Data Engineering/Technologies.md",
+    "Software Engineering",
+    "Data Engineering/Concepts",
     "Data.md",
     "Data Engineering/Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems (Martin Kleppmann) (z-lib.org).pdf",
     "Data Engineering/CAP Theorem.md",
-    "Data Engineering/Batch Data.md",
     "Interview Preps/Spotify/System Design Round.md",
     "Interview Preps/Spotify/Round 1.md",
     "Interview Preps/Questions to ask the recruiter.md",
     "README.md",
-    "conflict-files-obsidian-git.md",
-    "Interview Preps/Spotify/Untitled.md",
     "Interview Preps/BNP Paribas/Vikramaditya_Tatke_CV.pdf",
-    "Interview Preps/BNP Paribas/Questions for the Hiring Manager.md",
-    "Interview Preps/BNP Paribas/BNP Paribas - Recent Achievements.md",
-    "document.pdf",
-    "Understanding Apache Kafka -  Architecture, Concepts, and Practical Setup.md",
-    "Understanding Apache Kafka -  Architecture, Concepts, and Practical Setup 1.md",
-    "AWS Data Engineer/EC2 Basics.png",
-    "AWS Data Engineer/Fundamentals - Program Kick-Off Day 1.md",
-    "Gemini 2.5 Pro Preview - API, Providers, Stats.md",
-    "AWS Data Engineer/Data Storage.md",
-    "Excalidraw/EKS-ECS.excalidraw.md",
-    "AWS Data Engineer/Compute.md",
     "AWS Data Engineer/AWS Certified Data Engineer - Associate (DEA-C01) Exam Guide.pdf",
-    "copilot-conversations/Give_me_a_list_of_recently_asked_interview_questions_in@20250518_220436.md",
-    "copilot-conversations",
-    "Data Engineering",
-    "Excalidraw/System Design.md",
-    "Excalidraw/Drawing 2025-05-18 00.54.53.excalidraw.md",
-    "Interview Preps/Spotify",
-    "Excalidraw",
-    "AWS Data Engineer/AWS_Certified_Data_Engineer_Exam_Guide.md",
-    "AWS Data Engineer/Unconfirmed 983423.crdownload",
-    "AWS Data Engineer",
-    "Interview Preps/BNP Paribas/Q&A - Technical.md",
-    "Untitled.canvas"
+    "copilot-conversations"
   ]
 }
