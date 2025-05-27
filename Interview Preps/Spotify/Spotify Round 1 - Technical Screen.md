@@ -53,13 +53,40 @@ Discuss a project related to data engineering
 2. [[Data Engineering Concepts#Hashmap collision resolution strategies]].
 3. Examples of [[Data Structures and Algorithms#Probabilistic Data Structures]]
 4. Difference between functional and imperative programming - [[Programming Fundamentals]].
-5. How would you represent a graph in-memory?
-6. Difference between columnar and row based database - [[OLTP Vs OLAP]]. 
-7. Difference between inner and outer join - [[SQL Fundamentals#Types of Joins in SQL]]. 
-8. Different types of [[File Formats]].
-9. Explain MapReduce.
-10. What are the merits and demerits of Docker?
-11. What is the difference between Zookeeper and KRaft?
+5. Difference between columnar and row based database - [[OLTP Vs OLAP]]. 
+6. Difference between inner and outer join - [[SQL Fundamentals#Types of Joins in SQL]]. 
+7. Different types of [[File Formats]].
+8. Explain MapReduce.
+9. What are the merits and demerits of Docker?
+
+| **Demerit**          | **Description**                                                  |
+| -------------------- | ---------------------------------------------------------------- |
+| Security Risks       | Shared kernel, privilege escalation, insecure images             |
+| Performance Overhead | Slower I/O and CPU-bound tasks compared to bare metal            |
+| Complex Networking   | Difficult to configure and troubleshoot, especially across hosts |
+| Data Persistence     | Ephemeral nature, volume management can be tricky                |
+| Resource Management  | Poor isolation can lead to resource starvation                   |
+| Learning Curve       | Multi-container setups and debugging can be complex              |
+| GUI Limitations      | Not designed for desktop GUI apps                                |
+| Platform Issues      | VM-based setup on Windows/macOS adds latency and complexity      |
+| Image Bloat          | Unoptimized images can be large and inefficient                  |
+| Ecosystem Lock-in    | Tight coupling with Docker tools and formats                     |
+
+10. What is the difference between Zookeeper and KRaft?
+
+| **Feature**                    | **ZooKeeper**                                          | **KRaft (Kafka Raft)**                              |
+| ------------------------------ | ------------------------------------------------------ | --------------------------------------------------- |
+| **Definition**                 | External coordination service used by Kafka            | Kafka’s built-in consensus mechanism (Raft-based)   |
+| **Role in Kafka**              | Manages Kafka metadata, broker coordination, elections | Replaces ZooKeeper, handles all metadata internally |
+| **Architecture**               | Kafka + ZooKeeper cluster (separate systems)           | Kafka-only cluster with internal metadata quorum    |
+| **Consensus Algorithm**        | Zab (ZooKeeper Atomic Broadcast)                       | Raft                                                |
+| **Metadata Storage**           | Stored in ZooKeeper                                    | Stored in special Kafka topic (`@metadata`)         |
+| **Broker Controller Election** | Done via ZooKeeper                                     | Done via Raft internally                            |
+| **Complexity**                 | Higher (managing two systems: Kafka + ZooKeeper)       | Lower (single system with unified management)       |
+| **Scalability**                | Limited by ZooKeeper’s scalability                     | Better scalability with Kafka-native metadata       |
+| **Fault Tolerance**            | Dependent on ZooKeeper availability                    | Handled internally with Raft replication            |
+| **Introduced In**              | Original Kafka architecture (pre-2.8)                  | Kafka 2.8 (preview), stable in Kafka 3.3+           |
+| **Deployment**                 | Requires separate ZooKeeper setup                      | ZooKeeper-free Kafka mode (`KRaft` mode)            |
 
 ## System Design
 
