@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ae2cfff5f2da6112",
+        "id": "b8e43fe7e8a5c275",
         "type": "tabs",
         "children": [
           {
-            "id": "172211873187e0a5",
+            "id": "1d0b58099cf8721b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Engineering/CAP Theorem.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "CAP Theorem"
-            }
-          },
-          {
-            "id": "76b79ac438d2ea8b",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -48,7 +29,7 @@
       {
         "id": "64c1688679e620f7",
         "type": "tabs",
-        "dimension": 29.59866220735786,
+        "dimension": 45.15306122448979,
         "children": [
           {
             "id": "a59bfb739fd0c2c3",
@@ -103,22 +84,18 @@
         ]
       },
       {
-        "id": "bd49f9403a32c9e5",
+        "id": "cf28e2a04f9c8794",
         "type": "tabs",
-        "dimension": 34.448160535117054,
+        "dimension": 27.423469387755105,
         "children": [
           {
-            "id": "0698a3c044074ba1",
+            "id": "e902aed751a5f375",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Engineering/Technologies/Spark.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Spark"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -126,7 +103,7 @@
       {
         "id": "055cee757f7b7287",
         "type": "tabs",
-        "dimension": 35.953177257525084,
+        "dimension": 27.423469387755105,
         "children": [
           {
             "id": "365d8c44c682c86c",
@@ -142,7 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.00276947021484
+    "width": 418.00119400024414
   },
   "right": {
     "id": "e603ce187a513e87",
@@ -151,7 +128,7 @@
       {
         "id": "989dbf63f34ecacd",
         "type": "tabs",
-        "dimension": 29.79664014146773,
+        "dimension": 29.796640141467726,
         "children": [
           {
             "id": "99ba8350776b8387",
@@ -245,8 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 386,
-    "collapsed": true
+    "width": 386
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,16 +233,16 @@
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "omnisearch:Omnisearch": false,
-      "graph:Open graph view": false,
       "obsidian-git:Open Git source control": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "graph:Open graph view": false
     }
   },
-  "active": "76b79ac438d2ea8b",
+  "active": "e902aed751a5f375",
   "lastOpenFiles": [
-    "Data Engineering.canvas",
-    "Data Engineering/CAP Theorem.md",
     "Data Engineering/Technologies/Spark.md",
+    "Data Engineering/CAP Theorem.md",
+    "Data Engineering.canvas",
     "Interview Preps/Spotify/Spotify Round 1 - Technical Screen.md",
     "Interview Preps/Questions to ask the recruiter.md",
     "Interview Preps/Spotify/Sample SQL Q&A.md",
