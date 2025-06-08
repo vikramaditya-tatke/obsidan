@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a953addd71fe9a19",
+        "id": "05dbb551ecf3f05a",
         "type": "tabs",
         "children": [
           {
-            "id": "1c3eaab5b4a0ad3b",
+            "id": "af27305a04f4b68e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming Fundamentals.md",
+                "file": "Application Answers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Programming Fundamentals"
+              "title": "Application Answers"
             }
           }
         ]
@@ -33,7 +33,7 @@
       {
         "id": "64c1688679e620f7",
         "type": "tabs",
-        "dimension": 44.84126984126984,
+        "dimension": 45.15306122448979,
         "children": [
           {
             "id": "a59bfb739fd0c2c3",
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#excalidraw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,45 +74,40 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "47d12cea25fc97fa",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer-history",
+              "state": {},
+              "icon": "lucide-clock",
+              "title": "Web history"
+            }
           }
         ]
       },
       {
-        "id": "137ab6806e0908af",
+        "id": "cf28e2a04f9c8794",
         "type": "tabs",
-        "dimension": 23.214285714285715,
+        "dimension": 27.423469387755105,
         "children": [
           {
-            "id": "99ba8350776b8387",
+            "id": "e902aed751a5f375",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "54fc9e855eb7cdbb",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
+              "type": "graph",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "325a2ca1701be819",
+        "id": "055cee757f7b7287",
         "type": "tabs",
-        "dimension": 31.944444444444443,
+        "dimension": 27.423469387755105,
         "children": [
           {
             "id": "365d8c44c682c86c",
@@ -128,16 +123,38 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376.99999618530273
+    "width": 418.00119400024414
   },
   "right": {
     "id": "e603ce187a513e87",
     "type": "split",
     "children": [
       {
+        "id": "989dbf63f34ecacd",
+        "type": "tabs",
+        "dimension": 29.796640141467723,
+        "children": [
+          {
+            "id": "99ba8350776b8387",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Application Answers.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Application Answers"
+            }
+          }
+        ]
+      },
+      {
         "id": "3a80d8853aea0026",
         "type": "tabs",
-        "dimension": 65.63573883161511,
+        "dimension": 70.20335985853227,
         "children": [
           {
             "id": "a8d2e4bf03b9c933",
@@ -178,7 +195,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -186,7 +203,17 @@
             }
           },
           {
-            "id": "4bae7778a300aae6",
+            "id": "54fc9e855eb7cdbb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "1cb85099e33435de",
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
@@ -195,29 +222,12 @@
               "title": "Copilot"
             }
           }
-        ]
-      },
-      {
-        "id": "665ab45fc5da30de",
-        "type": "tabs",
-        "dimension": 34.36426116838488,
-        "children": [
-          {
-            "id": "0698a3c044074ba1",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 399,
-    "collapsed": true
+    "width": 386
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,56 +236,54 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "graph:Open graph view": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
-      "copilot:Open Copilot Chat": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false,
+      "graph:Open graph view": false
     }
   },
-  "active": "1c3eaab5b4a0ad3b",
+  "active": "af27305a04f4b68e",
   "lastOpenFiles": [
-    "Interview Preps/BNP Paribas/Vikramaditya Tatke CV.md",
-    "Interview Preps/BNP Paribas/Vikramaditya Tatke Cover Letter.md",
-    "Interview Preps/BNP Paribas/Q&A - Technical.md",
-    "Interview Preps/BNP Paribas/Q&A - Behavourial.md",
+    "Application Answers.md",
     "Interview Preps/Questions for the Hiring Manager.md",
-    "SQL LeetCode Questions with Solutions.pdf",
-    "Untitled.md",
-    "Airflow/Pasted image 20250530125614.png",
+    "Excalidraw/Drawing 2025-05-29 13.51.30.excalidraw.md",
     "Airflow/Pasted image 20250530125702.png",
     "Airflow/Astronomer - Airflow Trainings Fundamental Day 1.md",
     "Airflow",
-    "Excalidraw/Drawing 2025-05-29 13.52.36.excalidraw.md",
-    "Data Engineering.canvas",
-    "README.md",
-    "Interview Preps/BNP Paribas/Vikramaditya_Tatke_CV.pdf",
-    "Interview Preps/BNP Paribas/Vision and Mission.md",
-    "Data Structures and Algorithms.md",
-    "Interview Preps/BNP Paribas/Data Platform Engineer - Assistant Vice President.md",
-    "Interview Preps/BNP Paribas/BNP Paribas - Recent Achievements.md",
-    "Excalidraw/System Design.md",
-    "Interview Preps/Spotify/Spotify Round 1 - Technical Screen.md",
-    "Programming Fundamentals.md",
-    "Data Engineering/Concepts/Data Modelling.md",
-    "Interview Preps/Questions to ask the recruiter.md",
-    "Excalidraw/EKS-ECS.excalidraw.md",
-    "Excalidraw/Drawing 2025-05-29 13.51.30.excalidraw.md",
-    "Data Engineering/Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems (Martin Kleppmann) (z-lib.org).pdf",
+    "Data Engineering/Technologies/Spark.md",
     "Data Engineering/CAP Theorem.md",
-    "Data Engineering/Batch Data.md",
-    "Interview Preps/Spotify/Round 1.md",
+    "Data Engineering.canvas",
+    "Interview Preps/Spotify/Spotify Round 1 - Technical Screen.md",
+    "Interview Preps/Questions to ask the recruiter.md",
+    "Interview Preps/Spotify/Sample SQL Q&A.md",
+    "Data Engineering/SQL Fundamentals.md",
+    "Excalidraw/EKS-ECS.excalidraw.md",
+    "Programming Fundamentals.md",
+    "SQL LeetCode Questions with Solutions.pdf",
+    "AWS Data Engineer/EC2 Basics.png",
+    "Data Engineering/(Book Summary) Designing Data-Intensive Applications.md",
+    "Excalidraw/System Design.md",
+    "Data Engineering/Concepts/OLTP Vs OLAP.md",
+    "Files Formats.md",
     "Excalidraw/Scripts/Downloaded/Boolean Operations.svg",
+    "Data Engineering/File Formats.md",
     "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
-    "Data Engineering/Technologies/Spark.md",
+    "Data Engineering/Concepts/OLTP and OLAP.md",
     "Data Engineering/Technologies/Kafka.md",
+    "Data Engineering/Batch Data.md",
+    "Data Structures and Algorithms.md",
+    "Data Engineering/Concepts/Data Engineering Concepts.md",
+    "AWS Data Engineer/Data Storage.md",
+    "Data Engineering/Concepts/Data Modelling.md",
     "Data Engineering/Technologies",
+    "Data Engineering/Technologies.md",
+    "Software Engineering",
     "Data Engineering/Concepts",
-    "Data Engineering",
-    "AWS Data Engineer/EC2 Basics.png",
-    "AWS Data Engineer/AWS Certified Data Engineer - Associate (DEA-C01) Exam Guide.pdf",
-    "Untitled.canvas"
+    "Data Engineering/Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems (Martin Kleppmann) (z-lib.org).pdf",
+    "Interview Preps/BNP Paribas/Vikramaditya_Tatke_CV.pdf",
+    "AWS Data Engineer/AWS Certified Data Engineer - Associate (DEA-C01) Exam Guide.pdf"
   ]
 }
