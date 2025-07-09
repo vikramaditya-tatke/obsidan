@@ -15,7 +15,6 @@
 # Data Ingestion Strategies
 1. [[Batch Data]]
 2. Streaming Data
-
 # Question Bank
 
 ## Project

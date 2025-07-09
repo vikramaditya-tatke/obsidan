@@ -1,0 +1,13 @@
+- [ ] Interview Process and Candidate Experience
+- [x] Study the website  - https://www.mercedesamgf1.com
+	- [ ] F1 Explained
+	- [ ] Latest News in F1
+	- [ ] Pivotal moments for Mercedes in the history of F1.
+	- [ ] Values
+ - [ ] YouTube Playlist (channel - https://www.youtube.com/@MercedesAMGF1)
+	 - [x] How much data does an F1 car generate? 
+- [x] Reach out to Daniel Cook (Platform Engineer, hired March 2025) on LinkedIn - 
+- [ ] Use LLMs to formulate mock questions for the interview - 
+	- [ ] Job Description and the CV used for the current position
+- [ ] Write answers to basic interview questions in my own words.
+- [ ] Create a project using the FastF1 library and Snowflake.

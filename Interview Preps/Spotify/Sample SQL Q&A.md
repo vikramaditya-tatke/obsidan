@@ -1,4 +1,8 @@
-## **1. Find the earliest date each user played their third unique song**
+#### Sources:
+
+- [[Rewrite as tweet]]
+- [[Rewrite as tweet thread]]
+- [[Questions for the Hiring Manager]]## **1. Find the earliest date each user played their third unique song**
 ```sql
 WITH song_ranks AS (
     SELECT

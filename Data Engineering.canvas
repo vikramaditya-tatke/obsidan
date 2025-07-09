@@ -2,15 +2,14 @@
 	"nodes":[
 		{"id":"9867338a887eaa9a","type":"file","file":"Data Engineering/Concepts/Data Modelling.md","x":-1640,"y":-200,"width":574,"height":877},
 		{"id":"4e2abb291dfde912","type":"file","file":"Data Engineering/Technologies/Kafka.md","x":-540,"y":-860,"width":580,"height":660},
-		{"id":"2ca20f3ba829ebfd","type":"file","file":"Data Engineering/Technologies/Spark.md","x":-520,"y":519,"width":400,"height":400},
 		{"id":"ca32cc65ff9fa488","type":"text","text":"* **OLTP (Online Transaction Processing)**: User-facing, high volume of requests, small number of records per query, indexed lookups. Focus on low latency reads/writes.\n    * **Spotify Example**: Fetching a user's playlist, playing a song, updating a user's profile.\n* **OLAP (Online Analytical Processing) / Data Warehousing**: Business analyst facing, lower query volume, but queries scan millions of records for aggregates (count, sum, average).\n    * **Spotify Example**: \"What was the total listening time for users in Brazil last month?\" \"Which genres are trending upwards in the 18-24 age group?\"\n* **Data Warehousing**: Separate database optimized for analytics. Data extracted from OLTP systems, transformed, and loaded (ETL). Allows complex queries without impacting OLTP performance.\n    * **Star Schema / Snowflake Schema**: Common in data warehouses. A central **fact table** (e.g., `fact_listens` with columns like `user_id`, `track_id`, `timestamp`, `listen_duration`) surrounded by **dimension tables** (e.g., `dim_user`, `dim_track`, `dim_date`).\n    * **Spotify Example**: A data warehouse at Spotify would store listening events (facts) and dimensions like user demographics, track details, subscription types. This allows analysts to slice and dice data for business intelligence, artist reports, etc.","x":-140,"y":19,"width":794,"height":440},
 		{"id":"6ae91300dc868f80","type":"file","file":"Programming Fundamentals.md","x":-2280,"y":-1200,"width":400,"height":400},
-		{"id":"c7b1776297b22dde","type":"file","file":"Data Structures and Algorithms.md","x":-1506,"y":-1200,"width":440,"height":640}
+		{"id":"c7b1776297b22dde","type":"file","file":"Data Structures and Algorithms.md","x":-1506,"y":-1200,"width":440,"height":640},
+		{"id":"2ca20f3ba829ebfd","type":"file","file":"Data Engineering/Technologies/Spark.md","x":-540,"y":520,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"73350716c99d1718","fromNode":"6ae91300dc868f80","fromSide":"right","toNode":"c7b1776297b22dde","toSide":"left"},
 		{"id":"6fb1de770bd93928","fromNode":"9867338a887eaa9a","fromSide":"right","toNode":"4e2abb291dfde912","toSide":"left"},
-		{"id":"3d917bf3529f7d99","fromNode":"9867338a887eaa9a","fromSide":"right","toNode":"2ca20f3ba829ebfd","toSide":"left"},
-		{"id":"6eb5524b0325cbdc","fromNode":"9867338a887eaa9a","fromSide":"right","toNode":"ca32cc65ff9fa488","toSide":"left"}
+		{"id":"3d917bf3529f7d99","fromNode":"9867338a887eaa9a","fromSide":"right","toNode":"2ca20f3ba829ebfd","toSide":"left"}
 	]
 }
