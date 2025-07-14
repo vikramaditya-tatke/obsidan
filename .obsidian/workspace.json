@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "687e59ac41b04ea0",
+        "id": "e3a1935b499ec4c7",
         "type": "tabs",
         "children": [
           {
-            "id": "60d1ae6f9399d7d9",
+            "id": "f4fead58ca827b0a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Data Engineering/SQL Fundamentals.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "SQL Fundamentals"
+            }
+          },
+          {
+            "id": "3ffbe680dc2adea5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Engineering/Concepts/Data Engineering Concepts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data Engineering Concepts"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -29,7 +48,7 @@
       {
         "id": "64c1688679e620f7",
         "type": "tabs",
-        "dimension": 45.15306122448979,
+        "dimension": 38.22042467138524,
         "children": [
           {
             "id": "a59bfb739fd0c2c3",
@@ -84,12 +103,12 @@
         ]
       },
       {
-        "id": "cf28e2a04f9c8794",
+        "id": "77a5afac55a57323",
         "type": "tabs",
-        "dimension": 27.423469387755105,
+        "dimension": 30.1314459049545,
         "children": [
           {
-            "id": "e902aed751a5f375",
+            "id": "60d1ae6f9399d7d9",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -103,7 +122,7 @@
       {
         "id": "055cee757f7b7287",
         "type": "tabs",
-        "dimension": 27.423469387755105,
+        "dimension": 31.648129423660265,
         "children": [
           {
             "id": "365d8c44c682c86c",
@@ -119,7 +138,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.00843811035156
+    "width": 341
   },
   "right": {
     "id": "e603ce187a513e87",
@@ -128,7 +147,7 @@
       {
         "id": "989dbf63f34ecacd",
         "type": "tabs",
-        "dimension": 29.796640141467723,
+        "dimension": 29.79664014146773,
         "children": [
           {
             "id": "99ba8350776b8387",
@@ -136,12 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Data Engineering/Concepts/Data Engineering Concepts.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Data Engineering Concepts"
             }
           }
         ]
@@ -149,7 +169,7 @@
       {
         "id": "3a80d8853aea0026",
         "type": "tabs",
-        "dimension": 70.20335985853227,
+        "dimension": 70.20335985853228,
         "children": [
           {
             "id": "a8d2e4bf03b9c933",
@@ -222,8 +242,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 640.8000000000001,
-    "collapsed": true
+    "width": 416
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,51 +258,22 @@
       "graph:Open graph view": false
     }
   },
-  "floating": {
-    "id": "43bbfef6d1273605",
-    "type": "floating",
-    "children": [
-      {
-        "id": "55619e0c636d8313",
-        "type": "window",
-        "children": [
-          {
-            "id": "b0cfcf33d0d4df9d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "fbd5face3bf03940",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Interview Preps/Mercedes AMG F1/Job Description.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Job Description"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 28,
-        "width": 800,
-        "height": 1032,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "60d1ae6f9399d7d9",
+  "active": "3ffbe680dc2adea5",
   "lastOpenFiles": [
     "Interview Preps/Mercedes AMG F1/Mercedes AMG F1 - Round 1 Screening.md",
-    "copilot-conversations/create_a_mermaid_diagram_showing_medallian_architecture@20250709_132132.md",
-    "Interview Preps/Mercedes AMG F1/Job Description.md",
     "Interview Preps/Mercedes AMG F1/F1 General Technical Knowledge.md",
+    "Interview Preps/Mercedes AMG F1/Company Values.md",
+    "SQL LeetCode Questions with Solutions.pdf",
+    "Data Engineering/(Book Summary) Designing Data-Intensive Applications.md",
+    "Programming Fundamentals.md",
+    "Data Engineering/SQL Fundamentals.md",
+    "copilot-conversations/create_a_mermaid_diagram_showing_medallian_architecture@20250709_132132.md",
+    "copilot-conversations/Based_on_my_notes_on_topic,_what_is_the_question@20250707_090241.md",
+    "Interview Preps/BNP Paribas/Q&A - Behavourial.md",
+    "Data Engineering/Technologies/Spark.md",
+    "Interview Preps/Mercedes AMG F1/Task List.md",
+    "Interview Preps/Mercedes AMG F1/Job Description.md",
+    "Interview Preps/Mercedes AMG F1/Questions to ask the Hiring Manager.md",
     "Data Engineering.canvas",
     "copilot-custom-prompts/Make longer.md",
     "copilot-custom-prompts/Generate table of contents.md",
@@ -291,29 +281,18 @@
     "copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Emojify.md",
-    "copilot-conversations/Based_on_my_notes_on_topic,_what_is_the_question@20250707_090241.md",
-    "Interview Preps/Mercedes AMG F1/Task List.md",
-    "Interview Preps/Mercedes AMG F1/Questions to ask the Hiring Manager.md",
     "Interview Preps/Spotify/Spotify Round 1 - Technical Screen.md",
     "Interview Preps/Mercedes AMG F1/Vikramaditya_Tatke_CV.pdf",
     "Interview Preps/BNP Paribas/Gap Analysis between JD and Experience.md",
-    "Interview Preps/BNP Paribas/Q&A - Behavourial.md",
     "Interview Preps/Spotify/Sample SQL Q&A.md",
     "Interview Preps/Questions to ask the recruiter.md",
     "Interview Preps/Mercedes AMG F1",
     "copilot-conversations",
     "copilot-custom-prompts/Rewrite as press release.md",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot-custom-prompts/Remove URLs.md",
-    "copilot-custom-prompts/Make shorter.md",
-    "copilot-custom-prompts/Simplify.md",
-    "copilot-custom-prompts/Summarize.md",
-    "copilot-custom-prompts/Translate to Chinese.md",
     "copilot-custom-prompts",
     "Airflow/Pasted image 20250530125702.png",
     "Airflow",
-    "SQL LeetCode Questions with Solutions.pdf",
     "AWS Data Engineer/EC2 Basics.png",
     "Excalidraw/Scripts/Downloaded/Boolean Operations.svg",
     "Excalidraw/Scripts/Downloaded",
