@@ -170,13 +170,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "4c05359db4483d57",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 677
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,8 +208,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3ac52528d8536d6c",
+  "active": "4c05359db4483d57",
   "lastOpenFiles": [
+    "copilot-conversations/hi@20251128_214056.md",
+    "copilot-conversations/Hi@20251128_210133.md",
     "AWS Data Engineer/Untitled.canvas",
     "AWS Data Engineer/AppFlow.md",
     "AWS Data Engineer/Kinesis Data Streams.md",
@@ -226,7 +238,6 @@
     "VPC.excalidraw.md",
     "Excalidraw/Drawing 2025-10-31 20.35.44.excalidraw.md",
     "AWS Data Engineer/Compute.md",
-    "Excalidraw/EKS-ECS.excalidraw.md",
-    "Excalidraw/Lambda Serverless Website.md"
+    "Excalidraw/EKS-ECS.excalidraw.md"
   ]
 }
