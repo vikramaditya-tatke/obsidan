@@ -1,0 +1,6 @@
+- Already use S3, you typically begin by registering existing S3 buckets that contain your data
+- AWS Lake Formation is integrated with AWS Glue, which you can use to create a data catalog
+- Lake Formation lets you define policies and control data access with simple “grant and revoke permissions to data” sets at granular levels.
+- AWS Lake Formation also provides blueprints that you can run for loading and cataloging data.
+- A blueprint allows you to import data from:
+	- MySQL, Postgres,  SQL Server, MariaDB, Oracle databases running in Amazon RDS or hosted in Amazon EC2 or JDBC on-prem

@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "318af1155cc5d2f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "7724bb6967bfc71e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ac52528d8536d6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS Data Engineer/S3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "S3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c243b9638ecfe52c",
+    "type": "split",
+    "children": [
+      {
+        "id": "88cba2fac4615c16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0894df8424e71f0f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ffe5bee8347deb3f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9abce8e744094c33",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d4fe9993fe9617c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac460cd605214384",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "278b3d7a0c55cfe2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Excalidraw/VPC.excalidraw.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for VPC.excalidraw"
+            }
+          },
+          {
+            "id": "0c0696444b945ed2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AWS Data Engineer/AWS Services.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from AWS Services"
+            }
+          },
+          {
+            "id": "05d7a1a1c2da5c29",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e9478f24d5f18c94",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AWS Data Engineer/AWS Services.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of AWS Services"
+            }
+          },
+          {
+            "id": "d7efd192a25d0b69",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "5340ba2db07768cc",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "omnisearch:Omnisearch": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
+    }
+  },
+  "active": "3ac52528d8536d6c",
+  "lastOpenFiles": [
+    "AWS Data Engineer/Untitled.canvas",
+    "AWS Data Engineer/AppFlow.md",
+    "AWS Data Engineer/Kinesis Data Streams.md",
+    "AWS Data Engineer/Lake Formation.md",
+    "AWS Data Engineer/DynamoDB.md",
+    "AWS Data Engineer/Redshift.md",
+    "AWS Data Engineer/Revision.md",
+    "AWS Data Engineer/AWSCertifiedDataEngineerSlides.pdf",
+    "Excalidraw/AWS Icons Quickpick.md",
+    "AWS Data Engineer/S3.md",
+    "Excalidraw/VPC.excalidraw.md",
+    "Excalidraw/Timestream 2025-10-14 23.38.23.excalidraw.md",
+    "Excalidraw/RedShift.md",
+    "Excalidraw/System Design.md",
+    "AWS Data Engineer/Config.md",
+    "AWS Data Engineer/CloudWatch.md",
+    "AWS Data Engineer/AWS Certified Data Engineer - Associate (DEA-C01) Exam Guide.pdf",
+    "Excalidraw/DAX Elasticache.md",
+    "Excalidraw/Drawing 2025-11-21 00.06.42.excalidraw.md",
+    "Excalidraw/Drawing 2025-11-21 00.05.14.excalidraw.md",
+    "AWS Data Engineer/VPC.md",
+    "AWS Data Engineer/Practice Questions.md",
+    "AWS Data Engineer/EMR.md",
+    "VPC.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-31 20.35.44.excalidraw.md",
+    "AWS Data Engineer/Compute.md",
+    "Excalidraw/EKS-ECS.excalidraw.md",
+    "Excalidraw/Lambda Serverless Website.md"
+  ]
+}
