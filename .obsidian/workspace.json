@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d85132a33e4d302d",
+        "id": "5a5848a6b6ba6ef4",
         "type": "tabs",
         "children": [
           {
-            "id": "ff7fd53d118b7c14",
+            "id": "54d656df00538a5b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DSA/Big O notation.pdf",
-                "page": 1,
-                "zoom": 1
-              },
-              "icon": "lucide-file-text",
-              "title": "Big O notation"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -113,8 +109,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-ghost",
+              "title": "copilot-chat-view"
             }
           },
           {
@@ -138,8 +134,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -211,14 +207,30 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "remotely-save:Remotely Save": false,
       "obsidian-git:Open Git source control": false,
       "copilot:Open Copilot Chat": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ff7fd53d118b7c14",
+  "active": "54d656df00538a5b",
   "lastOpenFiles": [
+    "DSA/Big O notation.pdf",
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts",
     "DSA/Untitled.canvas",
     "DSA/leetcode/src/two_pointers/__pycache__/list_generator.cpython-312.pyc",
     "DSA/leetcode/src/two_pointers/__pycache__",
@@ -228,10 +240,8 @@
     "DSA/leetcode/src/list_generator.py",
     "DSA/leetcode/src/two_pointers/two_sum_two.py",
     "DSA/Preparation Plan.md",
-    "DSA/Big O notation.pdf",
     "DSA/DSA.base",
     "Interview Preps/Chainalysis/Coding Round.md",
-    "DSA/leetcode/src/longest_consecutive_sequence.py",
     "Interview Preps/Spotify/Spotify Round 1 - Technical Screen.md",
     "DSA/leetcode/README.md",
     "Excalidraw/DSA - Scratchpad.md",
@@ -240,27 +250,12 @@
     "Interview Preps/Spotify/Sample SQL Q&A.md",
     "Excalidraw/SageMaker Feature Store.md",
     "Excalidraw/SageMaker Feature Store.excalidraw.md",
-    "Excalidraw/Kinesis Data Streams.excalidraw.md",
-    "Excalidraw/Kinesis Data Streams.md",
-    "Excalidraw/System Design.excalidraw.md",
-    "Excalidraw/S3.excalidraw.md",
-    "Excalidraw/S3.md",
-    "Excalidraw/Scratchpad.md",
-    "Excalidraw/System Design.md",
-    "Untitled.md",
-    "202604102013.md",
-    "templates/My Template.md",
-    "templates/DEA-C01-Note-Template.md",
-    "templates/AWS-Zettelkasten-Note-Template.md",
-    "README.md",
     "SNOW.svg",
     "Data Engineering.canvas",
-    "qradar_ingestion_pattern.md",
     "Pasted image 20251008163033.png",
     "Pasted image 20251008202110.png",
     "Pasted image 20251011194614.png",
     "Pasted image 20251101200028.png",
-    "AWS Data Engineer Zettelkasten Lite style/IAM.md",
     "AWS Data Engineer/EC2 Basics.png",
     "Airflow/Pasted image 20250530125702.png",
     "AWS Data Engineer/Pasted Images/lifecycle2.png",
