@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7724bb6967bfc71e",
+        "id": "d85132a33e4d302d",
         "type": "tabs",
         "children": [
           {
-            "id": "3ac52528d8536d6c",
+            "id": "ff7fd53d118b7c14",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "AWS Data Engineer/S3.md",
-                "mode": "source",
-                "source": false
+                "file": "DSA/Big O notation.pdf",
+                "page": 1,
+                "zoom": 1
               },
-              "icon": "lucide-file",
-              "title": "S3"
+              "icon": "lucide-file-text",
+              "title": "Big O notation"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Data Exchange",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 350
   },
   "right": {
     "id": "d4fe9993fe9617c0",
@@ -87,6 +87,7 @@
       {
         "id": "ac460cd605214384",
         "type": "tabs",
+        "dimension": 63.69529983792545,
         "children": [
           {
             "id": "278b3d7a0c55cfe2",
@@ -94,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/VPC.excalidraw.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,36 +104,17 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for VPC.excalidraw"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "0c0696444b945ed2",
+            "id": "c753ccdc2c64782f",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "AWS Data Engineer/AWS Services.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from AWS Services"
-            }
-          },
-          {
-            "id": "05d7a1a1c2da5c29",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
             }
           },
           {
@@ -142,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS Data Engineer/AWS Services.md",
-                "followCursor": false,
+                "file": "Interview Preps/Wise/QQ&A_Practice.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AWS Services"
+              "title": "Outline of QQ&A_Practice"
             }
           },
           {
@@ -172,21 +153,47 @@
             }
           },
           {
-            "id": "4c05359db4483d57",
+            "id": "0c0696444b945ed2",
             "type": "leaf",
             "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "type": "outgoing-link",
+              "state": {
+                "file": "AWS Data Engineer Zettelkasten Lite style/Revision.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Revision"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
+      },
+      {
+        "id": "a375fbbff8d13709",
+        "type": "tabs",
+        "dimension": 36.30470016207455,
+        "children": [
+          {
+            "id": "05d7a1a1c2da5c29",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 677
+    "width": 537
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,6 +205,7 @@
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
       "bases:Create new base": false,
+      "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "omnisearch:Omnisearch": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
@@ -205,39 +213,62 @@
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "remotely-save:Remotely Save": false,
       "obsidian-git:Open Git source control": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4c05359db4483d57",
+  "active": "ff7fd53d118b7c14",
   "lastOpenFiles": [
-    "copilot-conversations/hi@20251128_214056.md",
-    "copilot-conversations/Hi@20251128_210133.md",
-    "AWS Data Engineer/Untitled.canvas",
-    "AWS Data Engineer/AppFlow.md",
-    "AWS Data Engineer/Kinesis Data Streams.md",
-    "AWS Data Engineer/Lake Formation.md",
-    "AWS Data Engineer/DynamoDB.md",
-    "AWS Data Engineer/Redshift.md",
-    "AWS Data Engineer/Revision.md",
-    "AWS Data Engineer/AWSCertifiedDataEngineerSlides.pdf",
-    "Excalidraw/AWS Icons Quickpick.md",
-    "AWS Data Engineer/S3.md",
-    "Excalidraw/VPC.excalidraw.md",
-    "Excalidraw/Timestream 2025-10-14 23.38.23.excalidraw.md",
-    "Excalidraw/RedShift.md",
+    "DSA/Untitled.canvas",
+    "DSA/leetcode/src/two_pointers/__pycache__/list_generator.cpython-312.pyc",
+    "DSA/leetcode/src/two_pointers/__pycache__",
+    "DSA/leetcode/src/two_pointers/list_generator.py",
+    "DSA/leetcode/src/two_pointers/three_sum.py",
+    "DSA/leetcode/src/two_pointers/three_sum",
+    "DSA/leetcode/src/list_generator.py",
+    "DSA/leetcode/src/two_pointers/two_sum_two.py",
+    "DSA/Preparation Plan.md",
+    "DSA/Big O notation.pdf",
+    "DSA/DSA.base",
+    "Interview Preps/Chainalysis/Coding Round.md",
+    "DSA/leetcode/src/longest_consecutive_sequence.py",
+    "Interview Preps/Spotify/Spotify Round 1 - Technical Screen.md",
+    "DSA/leetcode/README.md",
+    "Excalidraw/DSA - Scratchpad.md",
+    "AWS Data Engineer Zettelkasten Lite style/Config.md",
+    "Data Engineering/Concepts/Data Engineering Concepts.md",
+    "Interview Preps/Spotify/Sample SQL Q&A.md",
+    "Excalidraw/SageMaker Feature Store.md",
+    "Excalidraw/SageMaker Feature Store.excalidraw.md",
+    "Excalidraw/Kinesis Data Streams.excalidraw.md",
+    "Excalidraw/Kinesis Data Streams.md",
+    "Excalidraw/System Design.excalidraw.md",
+    "Excalidraw/S3.excalidraw.md",
+    "Excalidraw/S3.md",
+    "Excalidraw/Scratchpad.md",
     "Excalidraw/System Design.md",
-    "AWS Data Engineer/Config.md",
-    "AWS Data Engineer/CloudWatch.md",
-    "AWS Data Engineer/AWS Certified Data Engineer - Associate (DEA-C01) Exam Guide.pdf",
-    "Excalidraw/DAX Elasticache.md",
-    "Excalidraw/Drawing 2025-11-21 00.06.42.excalidraw.md",
-    "Excalidraw/Drawing 2025-11-21 00.05.14.excalidraw.md",
-    "AWS Data Engineer/VPC.md",
-    "AWS Data Engineer/Practice Questions.md",
-    "AWS Data Engineer/EMR.md",
-    "VPC.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-31 20.35.44.excalidraw.md",
-    "AWS Data Engineer/Compute.md",
-    "Excalidraw/EKS-ECS.excalidraw.md"
+    "Untitled.md",
+    "202604102013.md",
+    "templates/My Template.md",
+    "templates/DEA-C01-Note-Template.md",
+    "templates/AWS-Zettelkasten-Note-Template.md",
+    "README.md",
+    "SNOW.svg",
+    "Data Engineering.canvas",
+    "qradar_ingestion_pattern.md",
+    "Pasted image 20251008163033.png",
+    "Pasted image 20251008202110.png",
+    "Pasted image 20251011194614.png",
+    "Pasted image 20251101200028.png",
+    "AWS Data Engineer Zettelkasten Lite style/IAM.md",
+    "AWS Data Engineer/EC2 Basics.png",
+    "Airflow/Pasted image 20250530125702.png",
+    "AWS Data Engineer/Pasted Images/lifecycle2.png",
+    "AWS Data Engineer/Pasted Images/datazone-HIW.png",
+    "AWS Data Engineer/dea-materials/code/s3/beach.jpg",
+    "Untitled.canvas",
+    "Data Engineering/Data Engineering.canvas",
+    "AWS Data Engineering Architecture.canvas",
+    "AWS Data Engineer/Untitled.canvas"
   ]
 }

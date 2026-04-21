@@ -11,3 +11,4 @@
 	- VACUUM types
 	- PARTITIONING AND KEY
 6. Encryption and various keys
+7.  Firehose vs Kinesis

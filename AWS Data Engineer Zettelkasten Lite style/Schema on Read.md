@@ -1,0 +1,3 @@
+- Original data stored on the data source is never changed.
+- The defined schema is applied by transforming the data in-flight.
+- The transformation only happens within the product.

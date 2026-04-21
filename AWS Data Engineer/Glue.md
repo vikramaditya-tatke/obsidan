@@ -27,7 +27,7 @@ Glue Workflows is primarily used to create and visualize complex ETL activities
 - Offers a streamlined solution for data quality management, particularly beneficial in scenarios requiring precise and automated data validation
 - Ability to define specific data quality rules within a ruleset makes it an optimal choice for scenarios like ensuring inventory data accuracy.
 
-# Glue in [[CloudWatch]]
+# Glue in [[AWS Data Engineer/CloudWatch]]
 When you start an AWS Glue job, it sends the real-time logging information to CloudWatch (every 5 seconds and before each executor termination) after the Spark application starts running. You can view the logs on the AWS Glue console or the CloudWatch console dashboard.
 
 The continuous logging feature includes the following capabilities:

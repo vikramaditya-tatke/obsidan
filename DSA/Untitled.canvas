@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"6e9f932a19d84b9d","type":"text","text":"**Dynamic Window**\n\n- Longest sub-string with at most K characters\n- Smallest sub-array with sum greater than the target.\n- *Longest window where a certain rule is valid*","x":-400,"y":-180,"width":800,"height":140,"color":"6"},
+		{"id":"03e6dc6af70f62d0","type":"text","text":"Hashmaps","x":-880,"y":-700,"width":250,"height":60,"color":"6"},
+		{"id":"d8b36aa4efa3ccd8","type":"text","text":"**Fixed Window**\n- Max average of sub-array of size *k*.\n- Return the sum of every *k* length block.\n- Find the sub-array of length *k* with the largest/smallest X.","x":-400,"y":-360,"width":800,"height":150,"color":"6"},
+		{"id":"b84c43c3b16b7262","type":"text","text":"**Sliding Window**\n\nContiguous segments such and sub-arrays and sub-strings.","x":-880,"y":-310,"width":250,"height":200,"color":"6"},
+		{"id":"2977a55ac8a45e1a","x":-880,"y":-560,"width":250,"height":60,"color":"6","type":"text","text":"Two Pointers"},
+		{"id":"af7b38fb29b2c10b","type":"text","text":"- Palindromes \n- Reversals\n- Linked Lists\n- Merging sorted data","x":-400,"y":-605,"width":800,"height":150,"color":"6"}
+	],
+	"edges":[
+		{"id":"bd0736d7ffe1af9c","fromNode":"b84c43c3b16b7262","fromSide":"right","toNode":"d8b36aa4efa3ccd8","toSide":"left"},
+		{"id":"8d808da341b50263","fromNode":"b84c43c3b16b7262","fromSide":"right","toNode":"6e9f932a19d84b9d","toSide":"left"},
+		{"id":"7d6640af41df22af","fromNode":"2977a55ac8a45e1a","fromSide":"right","toNode":"af7b38fb29b2c10b","toSide":"left"}
+	]
+}

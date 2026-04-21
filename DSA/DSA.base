@@ -1,0 +1,26 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - and:
+            - file.folder.containsAny("DSA")
+    order:
+      - created_at
+      - tags
+      - file.backlinks
+      - file.name
+    sort:
+      - property: created_at
+        direction: ASC
+    columnSize:
+      note.created_at: 262
+      file.backlinks: 185
+      file.name: 232
+  - type: table
+    name: Python
+    filters:
+      and:
+        - file.folder.contains("leetcode")
+  - type: table
+    name: View

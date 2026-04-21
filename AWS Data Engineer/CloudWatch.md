@@ -19,3 +19,5 @@ Near real-time
 - Kinesis Data Streams, Kinesis Data Firehose.
 - AWS Lambda or OpenSearch.
 Using subscription filters, log aggregation can be performed across multiple regions and accounts.
+
+![[Excalidraw/CloudWatch]]

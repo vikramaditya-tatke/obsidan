@@ -1,0 +1,119 @@
+# AWS Data Engineer MOC
+
+![[System Design]]
+
+> [!TIP] Icon Legend
+> ![[AWS Icons Quickpick]]
+
+views:
+  - type: table
+    name: 🏗️ Functional Architecture
+    filters:
+      and:
+        - file.folder == "AWS Data Engineer Zettelkasten Lite style"
+        - file.name != "AWS Data Engineer MOC.base"
+        - status == "atomic"
+    order:
+      - topic
+      - file.name
+      - domain
+      - tags
+    sort: []
+    group: topic
+    columnSize:
+      note.topic: 174
+      file.name: 300
+      note.domain: 212
+  - type: table
+    name: 🛡️ AWS Service Coverage
+    filters:
+      and:
+        - file.folder == "AWS Data Engineer Zettelkasten Lite style"
+        - file.name != "AWS Data Engineer MOC.base"
+    order:
+      - services
+      - file.name
+      - topic
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: services
+        direction: ASC
+    group: services
+    columnSize:
+      note.services: 373
+      file.name: 300
+      note.topic: 174
+  - type: table
+    name: 💎 The 5 Vs of Big Data
+    filters:
+      and:
+        - file.folder == "AWS Data Engineer Zettelkasten Lite style"
+        - file.name != "AWS Data Engineer MOC.base"
+    order:
+      - big_data_v
+      - file.name
+      - topic
+    sort: []
+    group: big_data_v
+    columnSize:
+      note.big_data_v: 127
+  - type: table
+    name: 🎓 Exam Domain Roadmap
+    filters:
+      and:
+        - file.folder == "AWS Data Engineer Zettelkasten Lite style"
+        - file.name != "AWS Data Engineer MOC.base"
+    order:
+      - domain
+      - file.name
+      - confidence
+    sort: []
+    group: domain
+    columnSize:
+      note.domain: 329
+      file.name: 300
+  - type: table
+    name: 🚧 Work in Progress (Seeds)
+    filters:
+      and:
+        - file.folder == "AWS Data Engineer Zettelkasten Lite style"
+        - file.name != "AWS Data Engineer MOC.base"
+        - status == "seed"
+    order:
+      - file.name
+      - topic
+      - services
+    sort: []
+  - type: board
+    name: 🧠 Study Board (Cards)
+    filters:
+      and:
+        - file.folder == "AWS Data Engineer Zettelkasten Lite style"
+        - file.name != "AWS Data Engineer MOC.base"
+    order:
+      - file.name
+      - flashcard_question
+      - topic
+    sort: []
+    group: confidence
+    columnSize:
+      flashcard_question: 300
+  - type: gallery
+    name: 🎴 Flashcard Gallery
+    filters:
+      and:
+        - file.folder == "AWS Data Engineer Zettelkasten Lite style"
+        - file.name != "AWS Data Engineer MOC.base"
+    order:
+      - file.name
+      - flashcard_question
+      - confidence
+    sort: []
+  - type: cards
+    name: Cards View
+    order:
+      - services
+    cardSize: 200
+    image: note.excalidraw-mask
+    imageFit: contain

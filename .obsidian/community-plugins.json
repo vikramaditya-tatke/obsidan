@@ -11,7 +11,8 @@
   "text-extractor",
   "obsidian-style-settings",
   "better-word-count",
-  "dataview",
   "obsidian-git",
-  "copilot"
+  "copilot",
+  "obsidian-columns",
+  "table-editor-obsidian"
 ]

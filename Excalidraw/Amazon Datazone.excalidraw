@@ -1,0 +1,263 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "box_producers",
+      "type": "rectangle",
+      "x": 50,
+      "y": 100,
+      "width": 150,
+      "height": 300,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "seed": 123,
+      "version": 1,
+      "versionNonce": 0,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "text_producers",
+      "type": "text",
+      "x": 80,
+      "y": 70,
+      "width": 90,
+      "height": 20,
+      "text": "Producers",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "top",
+      "baseline": 18
+    },
+    {
+      "id": "text_s3",
+      "type": "text",
+      "x": 70,
+      "y": 130,
+      "text": "S3\nRedshift\nGlue",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center"
+    },
+    {
+      "id": "arrow_in",
+      "type": "arrow",
+      "x": 210,
+      "y": 250,
+      "width": 90,
+      "height": 0,
+      "strokeColor": "#000000",
+      "points": [
+        [0, 0],
+        [90, 0]
+      ],
+      "endBinding": {
+        "elementId": "box_datazone",
+        "focus": 0,
+        "gap": 10
+      }
+    },
+    {
+      "id": "box_datazone",
+      "type": "rectangle",
+      "x": 310,
+      "y": 50,
+      "width": 300,
+      "height": 400,
+      "strokeColor": "#000000",
+      "backgroundColor": "#f0f4f8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "id": "title_datazone",
+      "type": "text",
+      "x": 380,
+      "y": 20,
+      "text": "Amazon DataZone",
+      "fontSize": 24,
+      "fontFamily": 1,
+      "textAlign": "center"
+    },
+    {
+      "id": "box_portal",
+      "type": "rectangle",
+      "x": 330,
+      "y": 80,
+      "width": 260,
+      "height": 60,
+      "strokeColor": "#4a90e2",
+      "backgroundColor": "#d9e8fc",
+      "fillStyle": "solid",
+      "strokeWidth": 1
+    },
+    {
+      "id": "text_portal",
+      "type": "text",
+      "x": 410,
+      "y": 100,
+      "text": "Data Portal",
+      "fontSize": 16,
+      "fontFamily": 1
+    },
+    {
+      "id": "box_api",
+      "type": "rectangle",
+      "x": 330,
+      "y": 150,
+      "width": 260,
+      "height": 40,
+      "strokeColor": "#4a90e2",
+      "backgroundColor": "#d9e8fc",
+      "fillStyle": "solid",
+      "strokeWidth": 1
+    },
+    {
+      "id": "text_api",
+      "type": "text",
+      "x": 440,
+      "y": 160,
+      "text": "APIs",
+      "fontSize": 16,
+      "fontFamily": 1
+    },
+    {
+      "id": "box_catalog",
+      "type": "rectangle",
+      "x": 330,
+      "y": 210,
+      "width": 120,
+      "height": 80,
+      "strokeColor": "#4a90e2",
+      "backgroundColor": "#d9e8fc",
+      "fillStyle": "solid",
+      "strokeWidth": 1
+    },
+    {
+      "id": "text_catalog",
+      "type": "text",
+      "x": 340,
+      "y": 230,
+      "text": "Business Data\nCatalog",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center"
+    },
+    {
+      "id": "box_projects",
+      "type": "rectangle",
+      "x": 470,
+      "y": 210,
+      "width": 120,
+      "height": 80,
+      "strokeColor": "#4a90e2",
+      "backgroundColor": "#d9e8fc",
+      "fillStyle": "solid",
+      "strokeWidth": 1
+    },
+    {
+      "id": "text_projects",
+      "type": "text",
+      "x": 480,
+      "y": 230,
+      "text": "Projects & \nEnvironments",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "textAlign": "center"
+    },
+    {
+      "id": "box_gov",
+      "type": "rectangle",
+      "x": 330,
+      "y": 310,
+      "width": 260,
+      "height": 50,
+      "strokeColor": "#4a90e2",
+      "backgroundColor": "#d9e8fc",
+      "fillStyle": "solid",
+      "strokeWidth": 1
+    },
+    {
+      "id": "text_gov",
+      "type": "text",
+      "x": 350,
+      "y": 325,
+      "text": "Governance & Access Control",
+      "fontSize": 14,
+      "fontFamily": 1
+    },
+    {
+      "id": "arrow_out",
+      "type": "arrow",
+      "x": 620,
+      "y": 250,
+      "width": 90,
+      "height": 0,
+      "strokeColor": "#000000",
+      "points": [
+        [0, 0],
+        [90, 0]
+      ]
+    },
+    {
+      "id": "box_consumers",
+      "type": "rectangle",
+      "x": 720,
+      "y": 100,
+      "width": 150,
+      "height": 300,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "id": "text_consumers",
+      "type": "text",
+      "x": 740,
+      "y": 70,
+      "width": 110,
+      "height": 20,
+      "text": "Consumers",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "top"
+    },
+    {
+      "id": "text_tools",
+      "type": "text",
+      "x": 730,
+      "y": 130,
+      "text": "Athena\nSageMaker\nQuickSight",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "center"
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "currentItemFontFamily": 1
+  }
+}

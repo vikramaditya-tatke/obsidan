@@ -1,16 +1,13 @@
 ---
-title: "AWS Certified Data Engineer Associate 2025 - Hands On!"
-source: "https://www.udemy.com/course/aws-data-engineer/learn/lecture/51470893#overview"
+title: AWS Certified Data Engineer Associate 2025 - Hands On!
+source: https://www.udemy.com/course/aws-data-engineer/learn/lecture/51470893#overview
 author:
-  - "[[Udemy]]"
 published:
 created: 2025-10-08
-description: "AWS DEA-C01 certification prep course with exercises and a full-length practice exam. Redshift, Glue, Athena, and more"
+description: AWS DEA-C01 certification prep course with exercises and a full-length practice exam. Redshift, Glue, Athena, and more
 tags:
-  - "clippings"
+  - clippings
 ---
-The newer "S3 Express One Zone" storage class is reportedly appearing on the exam now. While we work on an updated video lecture, here's an overview of what it's all about, and what it means for data engineering:
-
 **Amazon S3 Express One Zone** is a high-throughput, low-latency storage class designed for performance-intensive, data-intensive workloads that require rapid access to objects. Unlike other S3 storage classes that replicate data across multiple Availability Zones (AZs), **S3 Express One Zone stores data in a single AZ**, delivering **sub-millisecond latency and high IOPS** at a lower cost.
 
 # Key Features

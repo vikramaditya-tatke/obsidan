@@ -1,0 +1,19 @@
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - tags
+      - created_at
+      - file.backlinks
+    columnSize:
+      file.name: 622
+      note.tags: 507
+  - type: table
+    name: View
+    order:
+      - file.name
+      - tags
+    columnSize:
+      note.tags: 622
+      file.name: 622

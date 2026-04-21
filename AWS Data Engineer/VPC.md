@@ -26,26 +26,54 @@ This allows instances in Private Subnets to access the internet while remaining 
 - Can only have ALLOW rules
 - Rules can include either IP addresses or other security groups.
 
-|**Security Group**|**Network ACL**|
-|---|---|
-|Operates at the instance level|Operates at the subnet level|
-|Supports allow rules only|Supports allow rules and deny rules|
-|Is stateful: Return traffic is automatically allowed, regardless of any rules|Is stateless: Return traffic must be explicitly allowed by rules|
-|We evaluate all rules before deciding whether to allow traffic|We process rules in number order when deciding whether to allow traffic|
-|Applies to an instance only if someone specifies the security group when launching the instance, or associates the security group with the instance later on|Automatically applies to all instances in the subnets it's associated with (therefore, you don't have to rely on users to specify the security group)|
+| **Security Group**                                                                                                                                           | **Network ACL**                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Operates at the instance level                                                                                                                               | Operates at the subnet level                                                                                                                          |
+| Supports allow rules only                                                                                                                                    | Supports allow rules and deny rules                                                                                                                   |
+| *Is stateful*: It evaluates the conversation between the entities. <br>Hence, return traffic is automatically allowed, regardless of any rules.              | *Is stateless*: It considers the traffic flow as separate parts - request and response. <br>Hence, return traffic must be explicitly allowed by rules |
+| We evaluate all rules before deciding whether to allow traffic                                                                                               | We process rules in number order when deciding whether to allow traffic                                                                               |
+| Applies to an instance only if someone specifies the security group when launching the instance, or associates the security group with the instance later on | Automatically applies to all instances in the subnets it's associated with (therefore, you don't have to rely on users to specify the security group) |
 ## VPC Flow Logs
 Captures information about IP traffic going into your interfaces.
 - VPC Flow Logs
 - Subnet Flow Logs
 - ENI Flow Logs
-Also, captures information from
+- Data Flow could be like follows for storing / processing the logs data
+	- VPC Flow Logs -> [[S3]] 
+	- VPC Flow Logs -> [[CloudWatch]] 
+	- VPC Flow Logs -> [[Kinesis# Kinesis Data Firehose]] 
 
-### Data Flow could be like follows for storing / processing the logs data
+### Log Fields Structure
+The standard VPC Flow Log entry consists of the following fields in order:
+interface-id
+- srcaddr
+- dstaddr
+- srcport
+- dstport
+- protocol
+- packets
+- bytes
+- start
+- end
+- action
+- log-status
 
-	VPC Flow Logs -> S3 
-	VPC Flow Logs -> CloudWatch 
-	VPC Flow Logs -> Kinesis Data Firehose 
+### Example Log Entries
+##### Allowed Traffic (ACCEPT)
+2 ACC-ID eni-ID 119.18.34.78 10.16.48.20 0 0   1   4 336 1432917027 1432917142 ACCEPT OK
+                *srcaddr*       *dstaddr*       *ICMP*                              *Action*
 
+##### Blocked Traffic (REJECT)
+2 ACC-ID eni-ID 10.16.48.20 119.18.34.78 0 0 1 4 336 1432917094 1432917142 REJECT OK
+                *srcaddr*       *dstaddr*       *ICMP*                              *Action*
+
+### Protocol Reference
+The `protocol` field uses standard IANA protocol numbers:
+ICMP = 1
+TCP = 6
+UDP = 17
+
+> VPC Flow logs DO NOT log the traffic to and from 169.254.169.254, 169.254.169.123, DHCP, Amazon DNS Server, Amazon Windows License Server.
 ## VPC Peering
 - VPC Peering is used to *privately connect* VPCs using the AWS Network, then the VPCs will behave as if they were the same network.
 - VPCs must not have overlapping IP ranges.
@@ -55,7 +83,7 @@ Also, captures information from
 ## VPC Endpoints
 
 - Endpoints allow you to connect to AWS Services privately.
-- All AWS Services are have an option to attach a default VPC which makes the resources publicaly accessible by assigning them a public IPS address - The default VPC has an Internet Gateway attached to it.
+- All AWS Services are have an option to attach a default VPC which makes the resources publicly accessible by assigning them a public IPS address - The default VPC has an Internet Gateway attached to it.
 - The AWS Control Plane is public, while the resources themselves are not (unless attached to the default VPC).
 
 ## VPC Endpoint Services (AWS PrivateLink)
@@ -63,11 +91,10 @@ Also, captures information from
 - Most secure able scalable way to expose a service to 1000s of VPCs.
 - Requires a NLB in the service VPC and an ENI in the Customer VPC
  
-
 ### VPC Endpoint Gateway: S3 and DynamoDB
 ### VPC Endpoint Interface: most AWS services including S3 and DynamoDB
 
-## Site to Site VPN
+## Site-to-Site VPN
 - Connect an on-prem VPC to AWS.
 - The connection is automatically encrypted.
 - Goes over the public internet.

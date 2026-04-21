@@ -19,7 +19,7 @@
 The `MSCK REPAIR TABLE` command is used to synchronize the metadata of a table with the actual data layout in the file system. When new data is added directly to HDFS, Hive is not aware of the new partitions. This is because Hive requires metadata about partitions to be updated in its metastore, which doesn’t happen when data is added directly to HDFS.
 Running `MSCK REPAIR TABLE` scans the file system for new partitions that were added after the table was created. It then compares the partitions in the table metadata and the partitions in the file system. If new partitions are present in the file system that are not in the table metadata, it adds those partitions to the metadata and to the Hive table.
 ### EMRFS
-- Uses [[S3]] as if it were HDFS
+- Uses [[AWS Data Engineer/S3]] as if it were HDFS
 - Persistent Storage 
 
 ### Local File System
