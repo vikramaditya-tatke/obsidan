@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5a5848a6b6ba6ef4",
+        "id": "6051e4d39651abc5",
         "type": "tabs",
         "children": [
           {
-            "id": "54d656df00538a5b",
+            "id": "768d1f0215c6bfe0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -37,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -74,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350
+    "width": 353
   },
   "right": {
     "id": "d4fe9993fe9617c0",
@@ -109,8 +111,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "copilot-chat-view"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           },
           {
@@ -119,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Preps/Wise/QQ&A_Practice.md",
+                "file": "Interview Preps/Databricks/Fordward Deployed Engineer - Senior Solutions Architect/Forward Deployed Engineering.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of QQ&A_Practice"
+              "title": "Outline of Forward Deployed Engineering"
             }
           },
           {
@@ -134,8 +136,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -160,6 +162,16 @@
               },
               "icon": "links-going-out",
               "title": "Outgoing links from Revision"
+            }
+          },
+          {
+            "id": "793964f79075325c",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-agent-chat-view",
+              "state": {},
+              "icon": "copilot-agent",
+              "title": "Copilot Agent"
             }
           }
         ],
@@ -189,7 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 537
+    "width": 612.56640625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,48 +220,49 @@
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "obsidian-git:Open Git source control": false,
-      "copilot:Open Copilot Chat": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "54d656df00538a5b",
+  "active": "5340ba2db07768cc",
   "lastOpenFiles": [
-    "DSA/Big O notation.pdf",
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
-    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot/copilot-custom-prompts",
+    "AWS Data Engineer Zettelkasten Lite style/CloudWatch and CloudTrail.md",
+    "copilot/copilot-conversations/agent__can_you_web_search@20260816_120223.md",
+    "AWS Data Engineer Zettelkasten Lite style/AWS Account Setup Guide.md",
+    "Interview Preps/Databricks/Fordward Deployed Engineer - Senior Solutions Architect/Forward Deployed Engineering.md",
+    "CLAUDE.md",
+    "AWS Data Engineer Zettelkasten Lite style/Amazon DataZone.md",
+    "Interview Preps/Databricks/Fordward Deployed Engineer - Senior Solutions Architect",
+    "Interview Preps/Databricks",
+    "Databricks Certifications/Untitled.md",
+    "Databricks Certifications/Untitled",
+    "copilot/skills/obsidian-cli/SKILL.md",
+    "copilot/skills/obsidian-cli/LICENSE",
+    "copilot/skills/obsidian-cli",
+    "copilot/skills/json-canvas/SKILL.md",
+    "copilot/skills/json-canvas/LICENSE",
+    "copilot/skills/json-canvas/references/EXAMPLES.md",
+    "copilot/skills/json-canvas/references",
+    "copilot/skills/json-canvas",
+    "copilot/skills/obsidian-bases/SKILL.md",
+    "copilot/skills/obsidian-bases/LICENSE",
+    "copilot/skills/obsidian-bases/references/EXAMPLES.md",
+    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+    "copilot/skills/obsidian-bases/references",
+    "copilot/skills/obsidian-markdown/SKILL.md",
+    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
+    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
+    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
+    "copilot/skills/symposium-publish/SKILL.md",
+    "copilot/skills/copilot-fetch-x/SKILL.md",
+    "copilot/skills/copilot-youtube-transcript/SKILL.md",
+    "copilot/skills/copilot-read-pdf/SKILL.md",
+    "copilot/skills/copilot-web-fetch/SKILL.md",
+    "copilot/skills/copilot-web-search/SKILL.md",
+    "copilot/copilot-conversations/how_to_add_default_properties_on_every_new_note@20260815_191051.md",
+    "Clippings/Data & AI June 2026 Edition.md",
+    "Clippings/Untitled.md",
     "DSA/Untitled.canvas",
-    "DSA/leetcode/src/two_pointers/__pycache__/list_generator.cpython-312.pyc",
-    "DSA/leetcode/src/two_pointers/__pycache__",
-    "DSA/leetcode/src/two_pointers/list_generator.py",
-    "DSA/leetcode/src/two_pointers/three_sum.py",
-    "DSA/leetcode/src/two_pointers/three_sum",
-    "DSA/leetcode/src/list_generator.py",
-    "DSA/leetcode/src/two_pointers/two_sum_two.py",
-    "DSA/Preparation Plan.md",
-    "DSA/DSA.base",
-    "Interview Preps/Chainalysis/Coding Round.md",
-    "Interview Preps/Spotify/Spotify Round 1 - Technical Screen.md",
-    "DSA/leetcode/README.md",
-    "Excalidraw/DSA - Scratchpad.md",
-    "AWS Data Engineer Zettelkasten Lite style/Config.md",
-    "Data Engineering/Concepts/Data Engineering Concepts.md",
-    "Interview Preps/Spotify/Sample SQL Q&A.md",
-    "Excalidraw/SageMaker Feature Store.md",
-    "Excalidraw/SageMaker Feature Store.excalidraw.md",
     "SNOW.svg",
     "Data Engineering.canvas",
     "Pasted image 20251008163033.png",
